@@ -1,0 +1,7164 @@
+[
+  {
+    "ID": "c:@Det_ModuleId",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Det_ModuleId",
+    "location": {
+      "column": "8",
+      "line": "16",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Det.c"
+    },
+    "name": "Det_ModuleId",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@Det_InstanceId",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Det_InstanceId",
+    "location": {
+      "column": "7",
+      "line": "17",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Det.c"
+    },
+    "name": "Det_InstanceId",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@Det_ApiId",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Det_ApiId",
+    "location": {
+      "column": "7",
+      "line": "18",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Det.c"
+    },
+    "name": "Det_ApiId",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@Det_ErrorId",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Det_ErrorId",
+    "location": {
+      "column": "7",
+      "line": "19",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Det.c"
+    },
+    "name": "Det_ErrorId",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Det_ReportError",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "Std_ReturnType Det_ReportError(uint16, uint8, uint8, uint8)",
+    "location": {
+      "column": "16",
+      "line": "21",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Det.c"
+    },
+    "name": "Det_ReportError",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__iar_program_start",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __iar_program_start(void)",
+    "location": {
+      "column": "13",
+      "line": "15",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\cstartup_M.c"
+    },
+    "name": "__iar_program_start",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@NMI_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void NMI_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "17",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\cstartup_M.c"
+    },
+    "name": "NMI_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HardFault_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void HardFault_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "18",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\cstartup_M.c"
+    },
+    "name": "HardFault_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MemManage_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void MemManage_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "19",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\cstartup_M.c"
+    },
+    "name": "MemManage_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@BusFault_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void BusFault_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "20",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\cstartup_M.c"
+    },
+    "name": "BusFault_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UsageFault_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UsageFault_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "21",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\cstartup_M.c"
+    },
+    "name": "UsageFault_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SVC_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SVC_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "22",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\cstartup_M.c"
+    },
+    "name": "SVC_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@DebugMon_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void DebugMon_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "23",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\cstartup_M.c"
+    },
+    "name": "DebugMon_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PendSV_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void PendSV_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "24",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\cstartup_M.c"
+    },
+    "name": "PendSV_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SysTick_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SysTick_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "25",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\cstartup_M.c"
+    },
+    "name": "SysTick_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIOPortF_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void GPIOPortF_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "28",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\cstartup_M.c"
+    },
+    "name": "GPIOPortF_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART0_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART0_Handler(void)",
+    "location": {
+      "column": "15",
+      "line": "31",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\cstartup_M.c"
+    },
+    "name": "UART0_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:cstartup_M.c@T@intfunc",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "void (*)(void)",
+    "location": {
+      "column": "16",
+      "line": "34",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\cstartup_M.c"
+    },
+    "name": "intfunc",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@UA@intvec_elem",
+    "What": "Union",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "35",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\cstartup_M.c"
+    },
+    "members": [
+      {
+        "ID": "c:@UA@intvec_elem@FI@__fun",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "__fun",
+        "location": {
+          "column": "25",
+          "line": "35",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\cstartup_M.c"
+        },
+        "name": "__fun",
+        "origin": "project_file",
+        "scope": "_anonymous_cstartup_M_c_35_9"
+      },
+      {
+        "ID": "c:@UA@intvec_elem@FI@__ptr",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "__ptr",
+        "location": {
+          "column": "39",
+          "line": "35",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\cstartup_M.c"
+        },
+        "name": "__ptr",
+        "origin": "project_file",
+        "scope": "_anonymous_cstartup_M_c_35_9"
+      }
+    ],
+    "name": "",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@T@intvec_elem",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "union intvec_elem",
+    "location": {
+      "column": "48",
+      "line": "35",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\cstartup_M.c"
+    },
+    "name": "intvec_elem",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@__vector_table",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "__vector_table",
+    "location": {
+      "column": "19",
+      "line": "48",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\cstartup_M.c"
+    },
+    "name": "__vector_table",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@NMI_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void NMI_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "105",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\cstartup_M.c"
+    },
+    "name": "NMI_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HardFault_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void HardFault_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "107",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\cstartup_M.c"
+    },
+    "name": "HardFault_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MemManage_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void MemManage_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "109",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\cstartup_M.c"
+    },
+    "name": "MemManage_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@BusFault_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void BusFault_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "111",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\cstartup_M.c"
+    },
+    "name": "BusFault_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UsageFault_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UsageFault_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "113",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\cstartup_M.c"
+    },
+    "name": "UsageFault_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SVC_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SVC_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "115",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\cstartup_M.c"
+    },
+    "name": "SVC_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@DebugMon_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void DebugMon_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "117",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\cstartup_M.c"
+    },
+    "name": "DebugMon_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PendSV_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void PendSV_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "119",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\cstartup_M.c"
+    },
+    "name": "PendSV_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SysTick_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SysTick_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "121",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\cstartup_M.c"
+    },
+    "name": "SysTick_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__cmain",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __cmain(void)",
+    "location": {
+      "column": "6",
+      "line": "124",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\cstartup_M.c"
+    },
+    "name": "__cmain",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__iar_init_core",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __iar_init_core(void)",
+    "location": {
+      "column": "13",
+      "line": "125",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\cstartup_M.c"
+    },
+    "name": "__iar_init_core",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__iar_init_vfp",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __iar_init_vfp(void)",
+    "location": {
+      "column": "13",
+      "line": "126",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\cstartup_M.c"
+    },
+    "name": "__iar_init_vfp",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__iar_program_start",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void __iar_program_start(void)",
+    "location": {
+      "column": "6",
+      "line": "129",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\cstartup_M.c"
+    },
+    "name": "__iar_program_start",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Det.h@411@macro@DET_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DET_H",
+    "location": {
+      "column": "9",
+      "line": "14",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Det.h"
+    },
+    "name": "DET_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Det.h@514@macro@DET_VENDOR_ID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DET_VENDOR_ID",
+    "location": {
+      "column": "9",
+      "line": "18",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Det.h"
+    },
+    "name": "DET_VENDOR_ID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Det.h@584@macro@DET_MODULE_ID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DET_MODULE_ID",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Det.h"
+    },
+    "name": "DET_MODULE_ID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Det.h@650@macro@DET_INSTANCE_ID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DET_INSTANCE_ID",
+    "location": {
+      "column": "9",
+      "line": "24",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Det.h"
+    },
+    "name": "DET_INSTANCE_ID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Det.h@743@macro@DET_SW_MAJOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DET_SW_MAJOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "29",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Det.h"
+    },
+    "name": "DET_SW_MAJOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Det.h@787@macro@DET_SW_MINOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DET_SW_MINOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Det.h"
+    },
+    "name": "DET_SW_MINOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Det.h@831@macro@DET_SW_PATCH_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DET_SW_PATCH_VERSION",
+    "location": {
+      "column": "9",
+      "line": "31",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Det.h"
+    },
+    "name": "DET_SW_PATCH_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Det.h@912@macro@DET_AR_MAJOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DET_AR_MAJOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "36",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Det.h"
+    },
+    "name": "DET_AR_MAJOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Det.h@956@macro@DET_AR_MINOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DET_AR_MINOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "37",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Det.h"
+    },
+    "name": "DET_AR_MINOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Det.h@1000@macro@DET_AR_PATCH_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DET_AR_PATCH_VERSION",
+    "location": {
+      "column": "9",
+      "line": "38",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Det.h"
+    },
+    "name": "DET_AR_PATCH_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@Det_ModuleId",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Det_ModuleId",
+    "location": {
+      "column": "15",
+      "line": "53",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Det.h"
+    },
+    "name": "Det_ModuleId",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@Det_ModuleId",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Det_ModuleId",
+    "location": {
+      "column": "15",
+      "line": "53",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Det.h"
+    },
+    "name": "Det_ModuleId",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@Det_InstanceId",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Det_InstanceId",
+    "location": {
+      "column": "14",
+      "line": "54",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Det.h"
+    },
+    "name": "Det_InstanceId",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@Det_InstanceId",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Det_InstanceId",
+    "location": {
+      "column": "14",
+      "line": "54",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Det.h"
+    },
+    "name": "Det_InstanceId",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@Det_ApiId",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Det_ApiId",
+    "location": {
+      "column": "14",
+      "line": "55",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Det.h"
+    },
+    "name": "Det_ApiId",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@Det_ApiId",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Det_ApiId",
+    "location": {
+      "column": "14",
+      "line": "55",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Det.h"
+    },
+    "name": "Det_ApiId",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@Det_ErrorId",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Det_ErrorId",
+    "location": {
+      "column": "14",
+      "line": "56",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Det.h"
+    },
+    "name": "Det_ErrorId",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@Det_ErrorId",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Det_ErrorId",
+    "location": {
+      "column": "14",
+      "line": "56",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Det.h"
+    },
+    "name": "Det_ErrorId",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Det_ReportError",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "Std_ReturnType Det_ReportError(uint16, uint8, uint8, uint8)",
+    "location": {
+      "column": "16",
+      "line": "61",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Det.h"
+    },
+    "name": "Det_ReportError",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Det_ReportError",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "Std_ReturnType Det_ReportError(uint16, uint8, uint8, uint8)",
+    "location": {
+      "column": "16",
+      "line": "61",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Det.h"
+    },
+    "name": "Det_ReportError",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@372@macro@PLATFORM_TYPES_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PLATFORM_TYPES_H",
+    "location": {
+      "column": "9",
+      "line": "14",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Platform_Types.h"
+    },
+    "name": "PLATFORM_TYPES_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@486@macro@PLATFORM_VENDOR_ID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PLATFORM_VENDOR_ID",
+    "location": {
+      "column": "9",
+      "line": "18",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Platform_Types.h"
+    },
+    "name": "PLATFORM_VENDOR_ID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@583@macro@PLATFORM_SW_MAJOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PLATFORM_SW_MAJOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Platform_Types.h"
+    },
+    "name": "PLATFORM_SW_MAJOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@641@macro@PLATFORM_SW_MINOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PLATFORM_SW_MINOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "24",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Platform_Types.h"
+    },
+    "name": "PLATFORM_SW_MINOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@699@macro@PLATFORM_SW_PATCH_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PLATFORM_SW_PATCH_VERSION",
+    "location": {
+      "column": "9",
+      "line": "25",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Platform_Types.h"
+    },
+    "name": "PLATFORM_SW_PATCH_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@794@macro@PLATFORM_AR_RELEASE_MAJOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PLATFORM_AR_RELEASE_MAJOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Platform_Types.h"
+    },
+    "name": "PLATFORM_AR_RELEASE_MAJOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@852@macro@PLATFORM_AR_RELEASE_MINOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PLATFORM_AR_RELEASE_MINOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "31",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Platform_Types.h"
+    },
+    "name": "PLATFORM_AR_RELEASE_MINOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@910@macro@PLATFORM_AR_RELEASE_PATCH_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PLATFORM_AR_RELEASE_PATCH_VERSION",
+    "location": {
+      "column": "9",
+      "line": "32",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Platform_Types.h"
+    },
+    "name": "PLATFORM_AR_RELEASE_PATCH_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@1007@macro@CPU_TYPE_8",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CPU_TYPE_8",
+    "location": {
+      "column": "9",
+      "line": "37",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Platform_Types.h"
+    },
+    "name": "CPU_TYPE_8",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@1065@macro@CPU_TYPE_16",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CPU_TYPE_16",
+    "location": {
+      "column": "9",
+      "line": "38",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Platform_Types.h"
+    },
+    "name": "CPU_TYPE_16",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@1124@macro@CPU_TYPE_32",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CPU_TYPE_32",
+    "location": {
+      "column": "9",
+      "line": "39",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Platform_Types.h"
+    },
+    "name": "CPU_TYPE_32",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@1219@macro@MSB_FIRST",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MSB_FIRST",
+    "location": {
+      "column": "9",
+      "line": "44",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Platform_Types.h"
+    },
+    "name": "MSB_FIRST",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@1305@macro@LSB_FIRST",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LSB_FIRST",
+    "location": {
+      "column": "9",
+      "line": "45",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Platform_Types.h"
+    },
+    "name": "LSB_FIRST",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@1428@macro@HIGH_BYTE_FIRST",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HIGH_BYTE_FIRST",
+    "location": {
+      "column": "9",
+      "line": "50",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Platform_Types.h"
+    },
+    "name": "HIGH_BYTE_FIRST",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@1514@macro@LOW_BYTE_FIRST",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LOW_BYTE_FIRST",
+    "location": {
+      "column": "9",
+      "line": "51",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Platform_Types.h"
+    },
+    "name": "LOW_BYTE_FIRST",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@1684@macro@CPU_TYPE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CPU_TYPE",
+    "location": {
+      "column": "9",
+      "line": "56",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Platform_Types.h"
+    },
+    "name": "CPU_TYPE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@1727@macro@CPU_BIT_ORDER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CPU_BIT_ORDER",
+    "location": {
+      "column": "9",
+      "line": "58",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Platform_Types.h"
+    },
+    "name": "CPU_BIT_ORDER",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@1766@macro@CPU_BYTE_ORDER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CPU_BYTE_ORDER",
+    "location": {
+      "column": "9",
+      "line": "59",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Platform_Types.h"
+    },
+    "name": "CPU_BYTE_ORDER",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@1855@macro@FALSE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FALSE",
+    "location": {
+      "column": "9",
+      "line": "65",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Platform_Types.h"
+    },
+    "name": "FALSE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@1903@macro@TRUE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TRUE",
+    "location": {
+      "column": "9",
+      "line": "68",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Platform_Types.h"
+    },
+    "name": "TRUE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@T@boolean",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned char",
+    "location": {
+      "column": "31",
+      "line": "71",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Platform_Types.h"
+    },
+    "name": "boolean",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@T@uint8",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned char",
+    "location": {
+      "column": "31",
+      "line": "73",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Platform_Types.h"
+    },
+    "name": "uint8",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@T@sint8",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "signed char",
+    "location": {
+      "column": "31",
+      "line": "74",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Platform_Types.h"
+    },
+    "name": "sint8",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@T@uint16",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned short",
+    "location": {
+      "column": "31",
+      "line": "75",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Platform_Types.h"
+    },
+    "name": "uint16",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@T@sint16",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "short",
+    "location": {
+      "column": "31",
+      "line": "76",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Platform_Types.h"
+    },
+    "name": "sint16",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@T@uint32",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned long",
+    "location": {
+      "column": "31",
+      "line": "77",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Platform_Types.h"
+    },
+    "name": "uint32",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@T@sint32",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "long",
+    "location": {
+      "column": "31",
+      "line": "78",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Platform_Types.h"
+    },
+    "name": "sint32",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@T@uint64",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned long long",
+    "location": {
+      "column": "31",
+      "line": "79",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Platform_Types.h"
+    },
+    "name": "uint64",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@T@sint64",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "long long",
+    "location": {
+      "column": "31",
+      "line": "80",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Platform_Types.h"
+    },
+    "name": "sint64",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@T@float32",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "float",
+    "location": {
+      "column": "31",
+      "line": "81",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Platform_Types.h"
+    },
+    "name": "float32",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@T@float64",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "double",
+    "location": {
+      "column": "31",
+      "line": "82",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Platform_Types.h"
+    },
+    "name": "float64",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Std_Types.h@341@macro@STD_TYPES_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "STD_TYPES_H",
+    "location": {
+      "column": "9",
+      "line": "14",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Std_Types.h"
+    },
+    "name": "STD_TYPES_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Std_Types.h@504@macro@STD_TYPES_VENDOR_ID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "STD_TYPES_VENDOR_ID",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Std_Types.h"
+    },
+    "name": "STD_TYPES_VENDOR_ID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Std_Types.h@610@macro@STD_TYPES_SW_MAJOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "STD_TYPES_SW_MAJOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "26",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Std_Types.h"
+    },
+    "name": "STD_TYPES_SW_MAJOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Std_Types.h@677@macro@STD_TYPES_SW_MINOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "STD_TYPES_SW_MINOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "27",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Std_Types.h"
+    },
+    "name": "STD_TYPES_SW_MINOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Std_Types.h@744@macro@STD_TYPES_SW_PATCH_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "STD_TYPES_SW_PATCH_VERSION",
+    "location": {
+      "column": "9",
+      "line": "28",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Std_Types.h"
+    },
+    "name": "STD_TYPES_SW_PATCH_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Std_Types.h@848@macro@STD_TYPES_AR_RELEASE_MAJOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "STD_TYPES_AR_RELEASE_MAJOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "33",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Std_Types.h"
+    },
+    "name": "STD_TYPES_AR_RELEASE_MAJOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Std_Types.h@915@macro@STD_TYPES_AR_RELEASE_MINOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "STD_TYPES_AR_RELEASE_MINOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "34",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Std_Types.h"
+    },
+    "name": "STD_TYPES_AR_RELEASE_MINOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Std_Types.h@982@macro@STD_TYPES_AR_RELEASE_PATCH_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "STD_TYPES_AR_RELEASE_PATCH_VERSION",
+    "location": {
+      "column": "9",
+      "line": "35",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Std_Types.h"
+    },
+    "name": "STD_TYPES_AR_RELEASE_PATCH_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Std_Types.h@T@Std_ReturnType",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "uint8",
+    "location": {
+      "column": "16",
+      "line": "40",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Std_Types.h"
+    },
+    "name": "Std_ReturnType",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@SA@Std_VersionInfoType",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "46",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Std_Types.h"
+    },
+    "members": [
+      {
+        "ID": "c:@SA@Std_VersionInfoType@FI@vendorID",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "vendorID",
+        "location": {
+          "column": "11",
+          "line": "48",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Std_Types.h"
+        },
+        "name": "vendorID",
+        "origin": "user_include",
+        "scope": "_anonymous_Std_Types_h_46_9"
+      },
+      {
+        "ID": "c:@SA@Std_VersionInfoType@FI@moduleID",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "moduleID",
+        "location": {
+          "column": "11",
+          "line": "49",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Std_Types.h"
+        },
+        "name": "moduleID",
+        "origin": "user_include",
+        "scope": "_anonymous_Std_Types_h_46_9"
+      },
+      {
+        "ID": "c:@SA@Std_VersionInfoType@FI@sw_major_version",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "sw_major_version",
+        "location": {
+          "column": "9",
+          "line": "50",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Std_Types.h"
+        },
+        "name": "sw_major_version",
+        "origin": "user_include",
+        "scope": "_anonymous_Std_Types_h_46_9"
+      },
+      {
+        "ID": "c:@SA@Std_VersionInfoType@FI@sw_minor_version",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "sw_minor_version",
+        "location": {
+          "column": "9",
+          "line": "51",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Std_Types.h"
+        },
+        "name": "sw_minor_version",
+        "origin": "user_include",
+        "scope": "_anonymous_Std_Types_h_46_9"
+      },
+      {
+        "ID": "c:@SA@Std_VersionInfoType@FI@sw_patch_version",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "sw_patch_version",
+        "location": {
+          "column": "9",
+          "line": "52",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Std_Types.h"
+        },
+        "name": "sw_patch_version",
+        "origin": "user_include",
+        "scope": "_anonymous_Std_Types_h_46_9"
+      }
+    ],
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@T@Std_VersionInfoType",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "struct Std_VersionInfoType",
+    "location": {
+      "column": "3",
+      "line": "53",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Std_Types.h"
+    },
+    "name": "Std_VersionInfoType",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Std_Types.h@1452@macro@STD_HIGH",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "STD_HIGH",
+    "location": {
+      "column": "9",
+      "line": "55",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Std_Types.h"
+    },
+    "name": "STD_HIGH",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Std_Types.h@1509@macro@STD_LOW",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "STD_LOW",
+    "location": {
+      "column": "9",
+      "line": "56",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Std_Types.h"
+    },
+    "name": "STD_LOW",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Std_Types.h@1567@macro@STD_ACTIVE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "STD_ACTIVE",
+    "location": {
+      "column": "9",
+      "line": "58",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Std_Types.h"
+    },
+    "name": "STD_ACTIVE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Std_Types.h@1631@macro@STD_IDLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "STD_IDLE",
+    "location": {
+      "column": "9",
+      "line": "59",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Std_Types.h"
+    },
+    "name": "STD_IDLE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Std_Types.h@1695@macro@STD_ON",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "STD_ON",
+    "location": {
+      "column": "9",
+      "line": "61",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Std_Types.h"
+    },
+    "name": "STD_ON",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Std_Types.h@1750@macro@STD_OFF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "STD_OFF",
+    "location": {
+      "column": "9",
+      "line": "62",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Std_Types.h"
+    },
+    "name": "STD_OFF",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Std_Types.h@1808@macro@E_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "E_OK",
+    "location": {
+      "column": "9",
+      "line": "64",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Std_Types.h"
+    },
+    "name": "E_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Std_Types.h@1887@macro@E_NOT_OK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "E_NOT_OK",
+    "location": {
+      "column": "9",
+      "line": "65",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Std_Types.h"
+    },
+    "name": "E_NOT_OK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Compiler.h@463@macro@COMPILER_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "COMPILER_H",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Compiler.h"
+    },
+    "name": "COMPILER_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Compiler.h@571@macro@COMPILER_VENDOR_ID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "COMPILER_VENDOR_ID",
+    "location": {
+      "column": "9",
+      "line": "19",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Compiler.h"
+    },
+    "name": "COMPILER_VENDOR_ID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Compiler.h@676@macro@COMPILER_SW_MAJOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "COMPILER_SW_MAJOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "24",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Compiler.h"
+    },
+    "name": "COMPILER_SW_MAJOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Compiler.h@742@macro@COMPILER_SW_MINOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "COMPILER_SW_MINOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "25",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Compiler.h"
+    },
+    "name": "COMPILER_SW_MINOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Compiler.h@808@macro@COMPILER_SW_PATCH_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "COMPILER_SW_PATCH_VERSION",
+    "location": {
+      "column": "9",
+      "line": "26",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Compiler.h"
+    },
+    "name": "COMPILER_SW_PATCH_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Compiler.h@911@macro@COMPILER_AR_RELEASE_MAJOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "COMPILER_AR_RELEASE_MAJOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "31",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Compiler.h"
+    },
+    "name": "COMPILER_AR_RELEASE_MAJOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Compiler.h@977@macro@COMPILER_AR_RELEASE_MINOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "COMPILER_AR_RELEASE_MINOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "32",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Compiler.h"
+    },
+    "name": "COMPILER_AR_RELEASE_MINOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Compiler.h@1043@macro@COMPILER_AR_RELEASE_PATCH_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "COMPILER_AR_RELEASE_PATCH_VERSION",
+    "location": {
+      "column": "9",
+      "line": "33",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Compiler.h"
+    },
+    "name": "COMPILER_AR_RELEASE_PATCH_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Compiler.h@1181@macro@AUTOMATIC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "AUTOMATIC",
+    "location": {
+      "column": "9",
+      "line": "36",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Compiler.h"
+    },
+    "name": "AUTOMATIC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Compiler.h@1306@macro@TYPEDEF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TYPEDEF",
+    "location": {
+      "column": "9",
+      "line": "40",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Compiler.h"
+    },
+    "name": "TYPEDEF",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Compiler.h@1391@macro@NULL_PTR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NULL_PTR",
+    "location": {
+      "column": "9",
+      "line": "43",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Compiler.h"
+    },
+    "name": "NULL_PTR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Compiler.h@1505@macro@INLINE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "INLINE",
+    "location": {
+      "column": "9",
+      "line": "46",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Compiler.h"
+    },
+    "name": "INLINE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Compiler.h@1597@macro@LOCAL_INLINE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LOCAL_INLINE",
+    "location": {
+      "column": "9",
+      "line": "49",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Compiler.h"
+    },
+    "name": "LOCAL_INLINE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Compiler.h@1713@macro@STATIC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "STATIC",
+    "location": {
+      "column": "9",
+      "line": "52",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Compiler.h"
+    },
+    "name": "STATIC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@343@macro@DIO_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_H",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "DIO_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@446@macro@DIO_VENDOR_ID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_VENDOR_ID",
+    "location": {
+      "column": "9",
+      "line": "17",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "DIO_VENDOR_ID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@503@macro@DIO_MODULE_ID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_MODULE_ID",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "DIO_MODULE_ID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@561@macro@DIO_INSTANCE_ID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_INSTANCE_ID",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "DIO_INSTANCE_ID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@628@macro@DIO_SW_MAJOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_SW_MAJOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "28",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "DIO_SW_MAJOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@673@macro@DIO_SW_MINOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_SW_MINOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "29",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "DIO_SW_MINOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@718@macro@DIO_SW_PATCH_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_SW_PATCH_VERSION",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "DIO_SW_PATCH_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@800@macro@DIO_AR_RELEASE_MAJOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_AR_RELEASE_MAJOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "35",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "DIO_AR_RELEASE_MAJOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@845@macro@DIO_AR_RELEASE_MINOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_AR_RELEASE_MINOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "36",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "DIO_AR_RELEASE_MINOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@890@macro@DIO_AR_RELEASE_PATCH_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_AR_RELEASE_PATCH_VERSION",
+    "location": {
+      "column": "9",
+      "line": "37",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "DIO_AR_RELEASE_PATCH_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@972@macro@DIO_INITIALIZED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_INITIALIZED",
+    "location": {
+      "column": "9",
+      "line": "42",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "DIO_INITIALIZED",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@1017@macro@DIO_NOT_INITIALIZED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_NOT_INITIALIZED",
+    "location": {
+      "column": "9",
+      "line": "43",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "DIO_NOT_INITIALIZED",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@2606@macro@DIO_READ_CHANNEL_SID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_READ_CHANNEL_SID",
+    "location": {
+      "column": "9",
+      "line": "79",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "DIO_READ_CHANNEL_SID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@2700@macro@DIO_WRITE_CHANNEL_SID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_WRITE_CHANNEL_SID",
+    "location": {
+      "column": "9",
+      "line": "82",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "DIO_WRITE_CHANNEL_SID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@2790@macro@DIO_READ_PORT_SID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_READ_PORT_SID",
+    "location": {
+      "column": "9",
+      "line": "85",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "DIO_READ_PORT_SID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@2881@macro@DIO_WRITE_PORT_SID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_WRITE_PORT_SID",
+    "location": {
+      "column": "9",
+      "line": "88",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "DIO_WRITE_PORT_SID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@2980@macro@DIO_READ_CHANNEL_GROUP_SID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_READ_CHANNEL_GROUP_SID",
+    "location": {
+      "column": "9",
+      "line": "91",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "DIO_READ_CHANNEL_GROUP_SID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@3080@macro@DIO_WRITE_CHANNEL_GROUP_SID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_WRITE_CHANNEL_GROUP_SID",
+    "location": {
+      "column": "9",
+      "line": "94",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "DIO_WRITE_CHANNEL_GROUP_SID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@3175@macro@DIO_GET_VERSION_INFO_SID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_GET_VERSION_INFO_SID",
+    "location": {
+      "column": "9",
+      "line": "97",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "DIO_GET_VERSION_INFO_SID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@3268@macro@DIO_INIT_SID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_INIT_SID",
+    "location": {
+      "column": "9",
+      "line": "100",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "DIO_INIT_SID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@3361@macro@DIO_FLIP_CHANNEL_SID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_FLIP_CHANNEL_SID",
+    "location": {
+      "column": "9",
+      "line": "103",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "DIO_FLIP_CHANNEL_SID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@3704@macro@DIO_E_PARAM_INVALID_CHANNEL_ID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_E_PARAM_INVALID_CHANNEL_ID",
+    "location": {
+      "column": "9",
+      "line": "109",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "DIO_E_PARAM_INVALID_CHANNEL_ID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@3821@macro@DIO_E_PARAM_CONFIG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_E_PARAM_CONFIG",
+    "location": {
+      "column": "9",
+      "line": "112",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "DIO_E_PARAM_CONFIG",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@3914@macro@DIO_E_PARAM_INVALID_PORT_ID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_E_PARAM_INVALID_PORT_ID",
+    "location": {
+      "column": "9",
+      "line": "115",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "DIO_E_PARAM_INVALID_PORT_ID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@4016@macro@DIO_E_PARAM_INVALID_GROUP",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_E_PARAM_INVALID_GROUP",
+    "location": {
+      "column": "9",
+      "line": "118",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "DIO_E_PARAM_INVALID_GROUP",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@4197@macro@DIO_E_PARAM_POINTER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_E_PARAM_POINTER",
+    "location": {
+      "column": "9",
+      "line": "124",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "DIO_E_PARAM_POINTER",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@4401@macro@DIO_E_UNINIT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_E_UNINIT",
+    "location": {
+      "column": "9",
+      "line": "130",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "DIO_E_UNINIT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@T@Dio_ChannelType",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "uint8",
+    "location": {
+      "column": "15",
+      "line": "136",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "Dio_ChannelType",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@T@Dio_PortType",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "uint8",
+    "location": {
+      "column": "15",
+      "line": "139",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "Dio_PortType",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@T@Dio_LevelType",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "uint8",
+    "location": {
+      "column": "15",
+      "line": "142",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "Dio_LevelType",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@T@Dio_PortLevelType",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "uint8",
+    "location": {
+      "column": "15",
+      "line": "145",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "Dio_PortLevelType",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@SA@Dio_ChannelGroupType",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "148",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "members": [
+      {
+        "ID": "c:@SA@Dio_ChannelGroupType@FI@mask",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "mask",
+        "location": {
+          "column": "9",
+          "line": "151",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+        },
+        "name": "mask",
+        "origin": "user_include",
+        "scope": "_anonymous_Dio_h_148_9"
+      },
+      {
+        "ID": "c:@SA@Dio_ChannelGroupType@FI@offset",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "offset",
+        "location": {
+          "column": "9",
+          "line": "153",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+        },
+        "name": "offset",
+        "origin": "user_include",
+        "scope": "_anonymous_Dio_h_148_9"
+      },
+      {
+        "ID": "c:@SA@Dio_ChannelGroupType@FI@PortIndex",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PortIndex",
+        "location": {
+          "column": "16",
+          "line": "155",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+        },
+        "name": "PortIndex",
+        "origin": "user_include",
+        "scope": "_anonymous_Dio_h_148_9"
+      }
+    ],
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@T@Dio_ChannelGroupType",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "struct Dio_ChannelGroupType",
+    "location": {
+      "column": "3",
+      "line": "156",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "Dio_ChannelGroupType",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@SA@Dio_ConfigChannel",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "158",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "members": [
+      {
+        "ID": "c:@SA@Dio_ConfigChannel@FI@Port_Num",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "Port_Num",
+        "location": {
+          "column": "15",
+          "line": "161",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+        },
+        "name": "Port_Num",
+        "origin": "user_include",
+        "scope": "_anonymous_Dio_h_158_9"
+      },
+      {
+        "ID": "c:@SA@Dio_ConfigChannel@FI@Ch_Num",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "Ch_Num",
+        "location": {
+          "column": "18",
+          "line": "163",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+        },
+        "name": "Ch_Num",
+        "origin": "user_include",
+        "scope": "_anonymous_Dio_h_158_9"
+      },
+      {
+        "ID": "c:@T@Dio_ConfigChannel",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "struct Dio_ConfigChannel",
+        "location": {
+          "column": "2",
+          "line": "164",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+        },
+        "name": "Dio_ConfigChannel",
+        "origin": "user_include",
+        "scope": "_anonymous_Dio_h_158_9"
+      }
+    ],
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@S@Dio_ConfigType",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "Dio_ConfigType",
+    "location": {
+      "column": "16",
+      "line": "167",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "members": [
+      {
+        "ID": "c:@S@Dio_ConfigType@FI@Channels",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "Channels",
+        "location": {
+          "column": "20",
+          "line": "169",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+        },
+        "name": "Channels",
+        "origin": "user_include",
+        "scope": "Dio_ConfigType"
+      }
+    ],
+    "name": "Dio_ConfigType",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.h@T@Dio_ConfigType",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "struct Dio_ConfigType",
+    "location": {
+      "column": "3",
+      "line": "170",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "Dio_ConfigType",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Dio_ReadPort",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "Dio_PortLevelType Dio_ReadPort(Dio_PortType)",
+    "location": {
+      "column": "19",
+      "line": "177",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "Dio_ReadPort",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Dio_WritePort",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Dio_WritePort(Dio_PortType, Dio_PortLevelType)",
+    "location": {
+      "column": "6",
+      "line": "180",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "Dio_WritePort",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Dio_ReadChannel",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "Dio_LevelType Dio_ReadChannel(Dio_ChannelType)",
+    "location": {
+      "column": "15",
+      "line": "183",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "Dio_ReadChannel",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Dio_ReadChannel",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "Dio_LevelType Dio_ReadChannel(Dio_ChannelType)",
+    "location": {
+      "column": "15",
+      "line": "183",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "Dio_ReadChannel",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Dio_WriteChannel",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Dio_WriteChannel(Dio_ChannelType, Dio_LevelType)",
+    "location": {
+      "column": "6",
+      "line": "186",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "Dio_WriteChannel",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Dio_WriteChannel",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Dio_WriteChannel(Dio_ChannelType, Dio_LevelType)",
+    "location": {
+      "column": "6",
+      "line": "186",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "Dio_WriteChannel",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Dio_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Dio_Init(const Dio_ConfigType *)",
+    "location": {
+      "column": "6",
+      "line": "189",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "Dio_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Dio_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Dio_Init(const Dio_ConfigType *)",
+    "location": {
+      "column": "6",
+      "line": "189",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "Dio_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Dio_FlipChannel",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "Dio_LevelType Dio_FlipChannel(Dio_ChannelType)",
+    "location": {
+      "column": "15",
+      "line": "193",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "Dio_FlipChannel",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Dio_FlipChannel",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "Dio_LevelType Dio_FlipChannel(Dio_ChannelType)",
+    "location": {
+      "column": "15",
+      "line": "193",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "Dio_FlipChannel",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@Dio_Configuration",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Dio_Configuration",
+    "location": {
+      "column": "29",
+      "line": "206",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "Dio_Configuration",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@Dio_Configuration",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Dio_Configuration",
+    "location": {
+      "column": "29",
+      "line": "206",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.h"
+    },
+    "name": "Dio_Configuration",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_Cfg.h@377@macro@DIO_CFG_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_CFG_H",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_Cfg.h"
+    },
+    "name": "DIO_CFG_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_Cfg.h@432@macro@DIO_CFG_SW_MAJOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_CFG_SW_MAJOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "18",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_Cfg.h"
+    },
+    "name": "DIO_CFG_SW_MAJOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_Cfg.h@484@macro@DIO_CFG_SW_MINOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_CFG_SW_MINOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "19",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_Cfg.h"
+    },
+    "name": "DIO_CFG_SW_MINOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_Cfg.h@536@macro@DIO_CFG_SW_PATCH_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_CFG_SW_PATCH_VERSION",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_Cfg.h"
+    },
+    "name": "DIO_CFG_SW_PATCH_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_Cfg.h@625@macro@DIO_CFG_AR_RELEASE_MAJOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_CFG_AR_RELEASE_MAJOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "25",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_Cfg.h"
+    },
+    "name": "DIO_CFG_AR_RELEASE_MAJOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_Cfg.h@676@macro@DIO_CFG_AR_RELEASE_MINOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_CFG_AR_RELEASE_MINOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "26",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_Cfg.h"
+    },
+    "name": "DIO_CFG_AR_RELEASE_MINOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_Cfg.h@727@macro@DIO_CFG_AR_RELEASE_PATCH_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_CFG_AR_RELEASE_PATCH_VERSION",
+    "location": {
+      "column": "9",
+      "line": "27",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_Cfg.h"
+    },
+    "name": "DIO_CFG_AR_RELEASE_PATCH_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_Cfg.h@835@macro@DIO_DEV_ERROR_DETECT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_DEV_ERROR_DETECT",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_Cfg.h"
+    },
+    "name": "DIO_DEV_ERROR_DETECT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_Cfg.h@938@macro@DIO_VERSION_INFO_API",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_VERSION_INFO_API",
+    "location": {
+      "column": "9",
+      "line": "33",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_Cfg.h"
+    },
+    "name": "DIO_VERSION_INFO_API",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_Cfg.h@1057@macro@DIO_FLIP_CHANNEL_API",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_FLIP_CHANNEL_API",
+    "location": {
+      "column": "9",
+      "line": "36",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_Cfg.h"
+    },
+    "name": "DIO_FLIP_CHANNEL_API",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_Cfg.h@1158@macro@DIO_CONFIGURED_CHANNLES",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_CONFIGURED_CHANNLES",
+    "location": {
+      "column": "9",
+      "line": "39",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_Cfg.h"
+    },
+    "name": "DIO_CONFIGURED_CHANNLES",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_Cfg.h@1273@macro@DioConf_RED_LED_CHANNEL_ID_INDEX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DioConf_RED_LED_CHANNEL_ID_INDEX",
+    "location": {
+      "column": "9",
+      "line": "42",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_Cfg.h"
+    },
+    "name": "DioConf_RED_LED_CHANNEL_ID_INDEX",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_Cfg.h@1334@macro@DioConf_GREEN_LED_CHANNEL_ID_INDEX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DioConf_GREEN_LED_CHANNEL_ID_INDEX",
+    "location": {
+      "column": "9",
+      "line": "43",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_Cfg.h"
+    },
+    "name": "DioConf_GREEN_LED_CHANNEL_ID_INDEX",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_Cfg.h@1397@macro@DioConf_BLUE_LED_CHANNEL_ID_INDEX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DioConf_BLUE_LED_CHANNEL_ID_INDEX",
+    "location": {
+      "column": "9",
+      "line": "44",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_Cfg.h"
+    },
+    "name": "DioConf_BLUE_LED_CHANNEL_ID_INDEX",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_Cfg.h@1556@macro@DioConf_RED_LED_PORT_NUM",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DioConf_RED_LED_PORT_NUM",
+    "location": {
+      "column": "9",
+      "line": "48",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_Cfg.h"
+    },
+    "name": "DioConf_RED_LED_PORT_NUM",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_Cfg.h@1633@macro@DioConf_GREEN_LED_PORT_NUM",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DioConf_GREEN_LED_PORT_NUM",
+    "location": {
+      "column": "9",
+      "line": "49",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_Cfg.h"
+    },
+    "name": "DioConf_GREEN_LED_PORT_NUM",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_Cfg.h@1712@macro@DioConf_BLUE_LED_PORT_NUM",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DioConf_BLUE_LED_PORT_NUM",
+    "location": {
+      "column": "9",
+      "line": "50",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_Cfg.h"
+    },
+    "name": "DioConf_BLUE_LED_PORT_NUM",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_Cfg.h@1791@macro@DioConf_SW2_PORT_NUM",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DioConf_SW2_PORT_NUM",
+    "location": {
+      "column": "9",
+      "line": "51",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_Cfg.h"
+    },
+    "name": "DioConf_SW2_PORT_NUM",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_Cfg.h@1902@macro@DioConf_RED_LED_CHANNEL_NUM",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DioConf_RED_LED_CHANNEL_NUM",
+    "location": {
+      "column": "9",
+      "line": "54",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_Cfg.h"
+    },
+    "name": "DioConf_RED_LED_CHANNEL_NUM",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_Cfg.h@1991@macro@DioConf_GREEN_LED_CHANNEL_NUM",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DioConf_GREEN_LED_CHANNEL_NUM",
+    "location": {
+      "column": "9",
+      "line": "55",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_Cfg.h"
+    },
+    "name": "DioConf_GREEN_LED_CHANNEL_NUM",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_Cfg.h@2082@macro@DioConf_BLUE_LED_CHANNEL_NUM",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DioConf_BLUE_LED_CHANNEL_NUM",
+    "location": {
+      "column": "9",
+      "line": "56",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_Cfg.h"
+    },
+    "name": "DioConf_BLUE_LED_CHANNEL_NUM",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_Cfg.h@2172@macro@DioConf_SW1_CHANNEL_NUM",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DioConf_SW1_CHANNEL_NUM",
+    "location": {
+      "column": "9",
+      "line": "57",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_Cfg.h"
+    },
+    "name": "DioConf_SW1_CHANNEL_NUM",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_Cfg.h@2258@macro@DioConf_SW2_CHANNEL_NUM",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DioConf_SW2_CHANNEL_NUM",
+    "location": {
+      "column": "9",
+      "line": "58",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_Cfg.h"
+    },
+    "name": "DioConf_SW2_CHANNEL_NUM",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.c@Dio_PortChannels",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Dio_PortChannels",
+    "location": {
+      "column": "34",
+      "line": "27",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.c"
+    },
+    "name": "Dio_PortChannels",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.c@Dio_Status",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Dio_Status",
+    "location": {
+      "column": "14",
+      "line": "28",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.c"
+    },
+    "name": "Dio_Status",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Dio_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Dio_Init(const Dio_ConfigType *)",
+    "location": {
+      "column": "6",
+      "line": "41",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.c"
+    },
+    "name": "Dio_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Dio_WriteChannel",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Dio_WriteChannel(Dio_ChannelType, Dio_LevelType)",
+    "location": {
+      "column": "6",
+      "line": "74",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.c"
+    },
+    "name": "Dio_WriteChannel",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.c@2633@F@Dio_WriteChannel@Port_Ptr",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Port_Ptr",
+    "location": {
+      "column": "20",
+      "line": "76",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.c"
+    },
+    "name": "Port_Ptr",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.c@2674@F@Dio_WriteChannel@error",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "error",
+    "location": {
+      "column": "10",
+      "line": "77",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.c"
+    },
+    "name": "error",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Dio_ReadChannel",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "Dio_LevelType Dio_ReadChannel(Dio_ChannelType)",
+    "location": {
+      "column": "15",
+      "line": "153",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.c"
+    },
+    "name": "Dio_ReadChannel",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.c@4882@F@Dio_ReadChannel@Port_Ptr",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Port_Ptr",
+    "location": {
+      "column": "20",
+      "line": "155",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.c"
+    },
+    "name": "Port_Ptr",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.c@4923@F@Dio_ReadChannel@output",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "output",
+    "location": {
+      "column": "16",
+      "line": "156",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.c"
+    },
+    "name": "output",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.c@4957@F@Dio_ReadChannel@error",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "error",
+    "location": {
+      "column": "10",
+      "line": "157",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.c"
+    },
+    "name": "error",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Dio_FlipChannel",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "Dio_LevelType Dio_FlipChannel(Dio_ChannelType)",
+    "location": {
+      "column": "15",
+      "line": "272",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.c"
+    },
+    "name": "Dio_FlipChannel",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.c@8600@F@Dio_FlipChannel@Port_Ptr",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Port_Ptr",
+    "location": {
+      "column": "20",
+      "line": "274",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.c"
+    },
+    "name": "Port_Ptr",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.c@8641@F@Dio_FlipChannel@output",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "output",
+    "location": {
+      "column": "16",
+      "line": "275",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.c"
+    },
+    "name": "output",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio.c@8675@F@Dio_FlipChannel@error",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "error",
+    "location": {
+      "column": "10",
+      "line": "276",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio.c"
+    },
+    "name": "error",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_Regs.h@363@macro@DIO_REGS_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_REGS_H",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_Regs.h"
+    },
+    "name": "DIO_REGS_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_Regs.h@411@macro@GPIO_PORTA_DATA_REG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTA_DATA_REG",
+    "location": {
+      "column": "9",
+      "line": "17",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_Regs.h"
+    },
+    "name": "GPIO_PORTA_DATA_REG",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_Regs.h@481@macro@GPIO_PORTB_DATA_REG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTB_DATA_REG",
+    "location": {
+      "column": "9",
+      "line": "18",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_Regs.h"
+    },
+    "name": "GPIO_PORTB_DATA_REG",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_Regs.h@551@macro@GPIO_PORTC_DATA_REG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTC_DATA_REG",
+    "location": {
+      "column": "9",
+      "line": "19",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_Regs.h"
+    },
+    "name": "GPIO_PORTC_DATA_REG",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_Regs.h@621@macro@GPIO_PORTD_DATA_REG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTD_DATA_REG",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_Regs.h"
+    },
+    "name": "GPIO_PORTD_DATA_REG",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_Regs.h@691@macro@GPIO_PORTE_DATA_REG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTE_DATA_REG",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_Regs.h"
+    },
+    "name": "GPIO_PORTE_DATA_REG",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_Regs.h@761@macro@GPIO_PORTF_DATA_REG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTF_DATA_REG",
+    "location": {
+      "column": "9",
+      "line": "22",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_Regs.h"
+    },
+    "name": "GPIO_PORTF_DATA_REG",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Common_Macros.h@341@macro@COMMON_MACROS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "COMMON_MACROS",
+    "location": {
+      "column": "9",
+      "line": "14",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Common_Macros.h"
+    },
+    "name": "COMMON_MACROS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Common_Macros.h@407@macro@SET_BIT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SET_BIT",
+    "location": {
+      "column": "9",
+      "line": "17",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Common_Macros.h"
+    },
+    "name": "SET_BIT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Common_Macros.h@494@macro@CLEAR_BIT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CLEAR_BIT",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Common_Macros.h"
+    },
+    "name": "CLEAR_BIT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Common_Macros.h@587@macro@TOGGLE_BIT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TOGGLE_BIT",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Common_Macros.h"
+    },
+    "name": "TOGGLE_BIT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Common_Macros.h@705@macro@ROR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ROR",
+    "location": {
+      "column": "9",
+      "line": "26",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Common_Macros.h"
+    },
+    "name": "ROR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Common_Macros.h@855@macro@ROL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ROL",
+    "location": {
+      "column": "9",
+      "line": "29",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Common_Macros.h"
+    },
+    "name": "ROL",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Common_Macros.h@1012@macro@BIT_IS_SET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BIT_IS_SET",
+    "location": {
+      "column": "9",
+      "line": "32",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Common_Macros.h"
+    },
+    "name": "BIT_IS_SET",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Common_Macros.h@1143@macro@BIT_IS_CLEAR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BIT_IS_CLEAR",
+    "location": {
+      "column": "9",
+      "line": "35",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Common_Macros.h"
+    },
+    "name": "BIT_IS_CLEAR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.h@355@macro@PORT_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_H",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "PORT_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.h@459@macro@PORT_VENDOR_ID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_VENDOR_ID",
+    "location": {
+      "column": "9",
+      "line": "17",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "PORT_VENDOR_ID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.h@518@macro@PORT_MODULE_ID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_MODULE_ID",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "PORT_MODULE_ID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.h@578@macro@PORT_INSTANCE_ID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_INSTANCE_ID",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "PORT_INSTANCE_ID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.h@646@macro@PORT_SW_MAJOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_SW_MAJOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "28",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "PORT_SW_MAJOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.h@692@macro@PORT_SW_MINOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_SW_MINOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "29",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "PORT_SW_MINOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.h@738@macro@PORT_SW_PATCH_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_SW_PATCH_VERSION",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "PORT_SW_PATCH_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.h@821@macro@PORT_AR_RELEASE_MAJOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_AR_RELEASE_MAJOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "35",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "PORT_AR_RELEASE_MAJOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.h@867@macro@PORT_AR_RELEASE_MINOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_AR_RELEASE_MINOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "36",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "PORT_AR_RELEASE_MINOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.h@913@macro@PORT_AR_RELEASE_PATCH_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_AR_RELEASE_PATCH_VERSION",
+    "location": {
+      "column": "9",
+      "line": "37",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "PORT_AR_RELEASE_PATCH_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.h@2535@macro@PORT_INIT_SID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_INIT_SID",
+    "location": {
+      "column": "9",
+      "line": "73",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "PORT_INIT_SID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.h@2639@macro@PORT_SET_PIN_DIRECTION_SID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_SET_PIN_DIRECTION_SID",
+    "location": {
+      "column": "9",
+      "line": "76",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "PORT_SET_PIN_DIRECTION_SID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.h@2748@macro@PORT_REFRESH_PORT_DIRECTION_SID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_REFRESH_PORT_DIRECTION_SID",
+    "location": {
+      "column": "9",
+      "line": "79",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "PORT_REFRESH_PORT_DIRECTION_SID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.h@2851@macro@PORT_GET_VERSION_INFO_SID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_GET_VERSION_INFO_SID",
+    "location": {
+      "column": "9",
+      "line": "82",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "PORT_GET_VERSION_INFO_SID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.h@2950@macro@PORT_SET_PIN_MODE_SID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_SET_PIN_MODE_SID",
+    "location": {
+      "column": "9",
+      "line": "85",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "PORT_SET_PIN_MODE_SID",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.h@3050@macro@PORT_INITIALIZED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_INITIALIZED",
+    "location": {
+      "column": "9",
+      "line": "90",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "PORT_INITIALIZED",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.h@3096@macro@PORT_NOT_INITIALIZED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_NOT_INITIALIZED",
+    "location": {
+      "column": "9",
+      "line": "91",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "PORT_NOT_INITIALIZED",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.h@3451@macro@PORT_E_PARAM_PIN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_E_PARAM_PIN",
+    "location": {
+      "column": "9",
+      "line": "97",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "PORT_E_PARAM_PIN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.h@3568@macro@PORT_E_DIRECTION_UNCHANGEABLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_E_DIRECTION_UNCHANGEABLE",
+    "location": {
+      "column": "9",
+      "line": "100",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "PORT_E_DIRECTION_UNCHANGEABLE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.h@3681@macro@PORT_E_PARAM_CONFIG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_E_PARAM_CONFIG",
+    "location": {
+      "column": "9",
+      "line": "103",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "PORT_E_PARAM_CONFIG",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.h@3802@macro@PORT_E_PARAM_INVALID_MODE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_E_PARAM_INVALID_MODE",
+    "location": {
+      "column": "9",
+      "line": "106",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "PORT_E_PARAM_INVALID_MODE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.h@3853@macro@PORT_E_MODE_UNCHANGEABLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_E_MODE_UNCHANGEABLE",
+    "location": {
+      "column": "9",
+      "line": "107",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "PORT_E_MODE_UNCHANGEABLE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.h@3962@macro@PORT_E_UNINIT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_E_UNINIT",
+    "location": {
+      "column": "9",
+      "line": "110",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "PORT_E_UNINIT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.h@4142@macro@PORT_E_PARAM_POINTER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_E_PARAM_POINTER",
+    "location": {
+      "column": "9",
+      "line": "116",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "PORT_E_PARAM_POINTER",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@Port_PinDirectionType",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@Port_PinDirectionType@PORT_PIN_IN",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PORT_PIN_IN",
+        "location": {
+          "column": "5",
+          "line": "124",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PORT_PIN_IN",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@Port_PinDirectionType@PORT_PIN_OUT",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PORT_PIN_OUT",
+        "location": {
+          "column": "18",
+          "line": "124",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PORT_PIN_OUT",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "122",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@Port_InternalResistor",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@Port_InternalResistor@OFF",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "OFF",
+        "location": {
+          "column": "5",
+          "line": "130",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "OFF",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@Port_InternalResistor@PULL_UP",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PULL_UP",
+        "location": {
+          "column": "10",
+          "line": "130",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PULL_UP",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@Port_InternalResistor@PULL_DOWN",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PULL_DOWN",
+        "location": {
+          "column": "19",
+          "line": "130",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PULL_DOWN",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "128",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@SA@Port_configChannel",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "141",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "members": [
+      {
+        "ID": "c:@SA@Port_configChannel@FI@direction",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "direction",
+        "location": {
+          "column": "26",
+          "line": "143",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "direction",
+        "origin": "user_include",
+        "scope": "_anonymous_Port_h_141_9"
+      },
+      {
+        "ID": "c:@SA@Port_configChannel@FI@initial_value",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "initial_value",
+        "location": {
+          "column": "26",
+          "line": "144",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "initial_value",
+        "origin": "user_include",
+        "scope": "_anonymous_Port_h_141_9"
+      },
+      {
+        "ID": "c:@SA@Port_configChannel@FI@resistor",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "resistor",
+        "location": {
+          "column": "26",
+          "line": "145",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "resistor",
+        "origin": "user_include",
+        "scope": "_anonymous_Port_h_141_9"
+      },
+      {
+        "ID": "c:@SA@Port_configChannel@FI@pin_mode",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "pin_mode",
+        "location": {
+          "column": "26",
+          "line": "146",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "pin_mode",
+        "origin": "user_include",
+        "scope": "_anonymous_Port_h_141_9"
+      },
+      {
+        "ID": "c:@SA@Port_configChannel@FI@pin_direction_changeable",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "pin_direction_changeable",
+        "location": {
+          "column": "26",
+          "line": "147",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "pin_direction_changeable",
+        "origin": "user_include",
+        "scope": "_anonymous_Port_h_141_9"
+      },
+      {
+        "ID": "c:@SA@Port_configChannel@FI@pin_mode_changeable",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "pin_mode_changeable",
+        "location": {
+          "column": "26",
+          "line": "148",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "pin_mode_changeable",
+        "origin": "user_include",
+        "scope": "_anonymous_Port_h_141_9"
+      },
+      {
+        "ID": "c:@T@Port_configChannel",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "struct Port_configChannel",
+        "location": {
+          "column": "2",
+          "line": "149",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "Port_configChannel",
+        "origin": "user_include",
+        "scope": "_anonymous_Port_h_141_9"
+      }
+    ],
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@SA@Port_ConfigType",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "152",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "members": [
+      {
+        "ID": "c:@SA@Port_ConfigType@FI@MCU_Channels",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "MCU_Channels",
+        "location": {
+          "column": "29",
+          "line": "154",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "MCU_Channels",
+        "origin": "user_include",
+        "scope": "_anonymous_Port_h_152_9"
+      },
+      {
+        "ID": "c:@T@Port_ConfigType",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "struct Port_ConfigType",
+        "location": {
+          "column": "2",
+          "line": "155",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "Port_ConfigType",
+        "origin": "user_include",
+        "scope": "_anonymous_Port_h_152_9"
+      }
+    ],
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.h@T@Port_PinType",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "uint8",
+    "location": {
+      "column": "15",
+      "line": "158",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "Port_PinType",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.h@T@Port_PinModeType",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "uint8",
+    "location": {
+      "column": "15",
+      "line": "161",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "Port_PinModeType",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@MCU_channelsNames",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@MCU_channelsNames@PA0",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PA0",
+        "location": {
+          "column": "3",
+          "line": "166",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PA0",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PA1",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PA1",
+        "location": {
+          "column": "8",
+          "line": "166",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PA1",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PA2",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PA2",
+        "location": {
+          "column": "13",
+          "line": "166",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PA2",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PA3",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PA3",
+        "location": {
+          "column": "18",
+          "line": "166",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PA3",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PA4",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PA4",
+        "location": {
+          "column": "23",
+          "line": "166",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PA4",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PA5",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PA5",
+        "location": {
+          "column": "28",
+          "line": "166",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PA5",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PA6",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PA6",
+        "location": {
+          "column": "33",
+          "line": "166",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PA6",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PA7",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PA7",
+        "location": {
+          "column": "38",
+          "line": "166",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PA7",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PB0",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PB0",
+        "location": {
+          "column": "3",
+          "line": "167",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PB0",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PB1",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PB1",
+        "location": {
+          "column": "8",
+          "line": "167",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PB1",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PB2",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PB2",
+        "location": {
+          "column": "13",
+          "line": "167",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PB2",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PB3",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PB3",
+        "location": {
+          "column": "18",
+          "line": "167",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PB3",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PB4",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PB4",
+        "location": {
+          "column": "23",
+          "line": "167",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PB4",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PB5",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PB5",
+        "location": {
+          "column": "28",
+          "line": "167",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PB5",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PB6",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PB6",
+        "location": {
+          "column": "33",
+          "line": "167",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PB6",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PB7",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PB7",
+        "location": {
+          "column": "38",
+          "line": "167",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PB7",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PC0",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PC0",
+        "location": {
+          "column": "3",
+          "line": "168",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PC0",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PC1",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PC1",
+        "location": {
+          "column": "8",
+          "line": "168",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PC1",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PC2",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PC2",
+        "location": {
+          "column": "13",
+          "line": "168",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PC2",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PC3",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PC3",
+        "location": {
+          "column": "18",
+          "line": "168",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PC3",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PC4",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PC4",
+        "location": {
+          "column": "23",
+          "line": "168",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PC4",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PC5",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PC5",
+        "location": {
+          "column": "28",
+          "line": "168",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PC5",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PC6",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PC6",
+        "location": {
+          "column": "33",
+          "line": "168",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PC6",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PC7",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PC7",
+        "location": {
+          "column": "38",
+          "line": "168",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PC7",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PD0",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PD0",
+        "location": {
+          "column": "3",
+          "line": "169",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PD0",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PD1",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PD1",
+        "location": {
+          "column": "8",
+          "line": "169",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PD1",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PD2",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PD2",
+        "location": {
+          "column": "13",
+          "line": "169",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PD2",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PD3",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PD3",
+        "location": {
+          "column": "18",
+          "line": "169",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PD3",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PD4",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PD4",
+        "location": {
+          "column": "23",
+          "line": "169",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PD4",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PD5",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PD5",
+        "location": {
+          "column": "28",
+          "line": "169",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PD5",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PD6",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PD6",
+        "location": {
+          "column": "33",
+          "line": "169",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PD6",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PD7",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PD7",
+        "location": {
+          "column": "38",
+          "line": "169",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PD7",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PE0",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PE0",
+        "location": {
+          "column": "3",
+          "line": "170",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PE0",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PE1",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PE1",
+        "location": {
+          "column": "8",
+          "line": "170",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PE1",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PE2",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PE2",
+        "location": {
+          "column": "13",
+          "line": "170",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PE2",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PE3",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PE3",
+        "location": {
+          "column": "18",
+          "line": "170",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PE3",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PE4",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PE4",
+        "location": {
+          "column": "23",
+          "line": "170",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PE4",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PE5",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PE5",
+        "location": {
+          "column": "28",
+          "line": "170",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PE5",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PF0",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PF0",
+        "location": {
+          "column": "3",
+          "line": "171",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PF0",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PF1",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PF1",
+        "location": {
+          "column": "8",
+          "line": "171",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PF1",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PF2",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PF2",
+        "location": {
+          "column": "13",
+          "line": "171",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PF2",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PF3",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PF3",
+        "location": {
+          "column": "18",
+          "line": "171",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PF3",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MCU_channelsNames@PF4",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PF4",
+        "location": {
+          "column": "23",
+          "line": "171",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+        },
+        "name": "PF4",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "164",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@Port_Configuration",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Port_Configuration",
+    "location": {
+      "column": "30",
+      "line": "179",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "Port_Configuration",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@Port_Configuration",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Port_Configuration",
+    "location": {
+      "column": "30",
+      "line": "179",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "Port_Configuration",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Port_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Port_Init(const Port_ConfigType *)",
+    "location": {
+      "column": "6",
+      "line": "196",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "Port_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Port_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Port_Init(const Port_ConfigType *)",
+    "location": {
+      "column": "6",
+      "line": "196",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "Port_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Port_SetPinDirection",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Port_SetPinDirection(Port_PinType, Port_PinDirectionType)",
+    "location": {
+      "column": "6",
+      "line": "209",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "Port_SetPinDirection",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Port_SetPinDirection",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Port_SetPinDirection(Port_PinType, Port_PinDirectionType)",
+    "location": {
+      "column": "6",
+      "line": "209",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "Port_SetPinDirection",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Port_RefreshPortDirection",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Port_RefreshPortDirection(void)",
+    "location": {
+      "column": "6",
+      "line": "222",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "Port_RefreshPortDirection",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Port_RefreshPortDirection",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Port_RefreshPortDirection(void)",
+    "location": {
+      "column": "6",
+      "line": "222",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "Port_RefreshPortDirection",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Port_GetVersionInfo",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Port_GetVersionInfo(Std_VersionInfoType *)",
+    "location": {
+      "column": "6",
+      "line": "235",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "Port_GetVersionInfo",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Port_GetVersionInfo",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Port_GetVersionInfo(Std_VersionInfoType *)",
+    "location": {
+      "column": "6",
+      "line": "235",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "Port_GetVersionInfo",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Port_SetPinMode",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Port_SetPinMode(Port_PinType, Port_PinModeType)",
+    "location": {
+      "column": "6",
+      "line": "249",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "Port_SetPinMode",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Port_SetPinMode",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Port_SetPinMode(Port_PinType, Port_PinModeType)",
+    "location": {
+      "column": "6",
+      "line": "249",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.h"
+    },
+    "name": "Port_SetPinMode",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@171@macro@Enable_Interrupts",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "Enable_Interrupts",
+    "location": {
+      "column": "9",
+      "line": "6",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\main.c"
+    },
+    "name": "Enable_Interrupts",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@328@macro@Disable_Interrupts",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "Disable_Interrupts",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\main.c"
+    },
+    "name": "Disable_Interrupts",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@477@macro@Enable_Exceptions",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "Enable_Exceptions",
+    "location": {
+      "column": "9",
+      "line": "12",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\main.c"
+    },
+    "name": "Enable_Exceptions",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@627@macro@Disable_Exceptions",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "Disable_Exceptions",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\main.c"
+    },
+    "name": "Disable_Exceptions",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "17",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@691@F@main@data",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "data",
+    "location": {
+      "column": "11",
+      "line": "19",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\main.c"
+    },
+    "name": "data",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_PBcfg.c@413@macro@DIO_PBCFG_SW_MAJOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_PBCFG_SW_MAJOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "17",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_PBcfg.c"
+    },
+    "name": "DIO_PBCFG_SW_MAJOR_VERSION",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_PBcfg.c@467@macro@DIO_PBCFG_SW_MINOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_PBCFG_SW_MINOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "18",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_PBcfg.c"
+    },
+    "name": "DIO_PBCFG_SW_MINOR_VERSION",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_PBcfg.c@521@macro@DIO_PBCFG_SW_PATCH_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_PBCFG_SW_PATCH_VERSION",
+    "location": {
+      "column": "9",
+      "line": "19",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_PBcfg.c"
+    },
+    "name": "DIO_PBCFG_SW_PATCH_VERSION",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_PBcfg.c@612@macro@DIO_PBCFG_AR_RELEASE_MAJOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_PBCFG_AR_RELEASE_MAJOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "24",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_PBcfg.c"
+    },
+    "name": "DIO_PBCFG_AR_RELEASE_MAJOR_VERSION",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_PBcfg.c@665@macro@DIO_PBCFG_AR_RELEASE_MINOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_PBCFG_AR_RELEASE_MINOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "25",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_PBcfg.c"
+    },
+    "name": "DIO_PBCFG_AR_RELEASE_MINOR_VERSION",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Dio_PBcfg.c@718@macro@DIO_PBCFG_AR_RELEASE_PATCH_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIO_PBCFG_AR_RELEASE_PATCH_VERSION",
+    "location": {
+      "column": "9",
+      "line": "26",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_PBcfg.c"
+    },
+    "name": "DIO_PBCFG_AR_RELEASE_PATCH_VERSION",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@Dio_Configuration",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Dio_Configuration",
+    "location": {
+      "column": "22",
+      "line": "43",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Dio_PBcfg.c"
+    },
+    "name": "Dio_Configuration",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:UART.h@347@macro@UART_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART_H",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+    },
+    "name": "UART_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@CharacterSize",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@CharacterSize@FIVE_BITS",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "FIVE_BITS",
+        "location": {
+          "column": "2",
+          "line": "25",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+        },
+        "name": "FIVE_BITS",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@CharacterSize@SIX_BITS",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SIX_BITS",
+        "location": {
+          "column": "13",
+          "line": "25",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+        },
+        "name": "SIX_BITS",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@CharacterSize@SEVEN_BITS",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SEVEN_BITS",
+        "location": {
+          "column": "23",
+          "line": "25",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+        },
+        "name": "SEVEN_BITS",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@CharacterSize@EIGHT_BITS",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EIGHT_BITS",
+        "location": {
+          "column": "35",
+          "line": "25",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+        },
+        "name": "EIGHT_BITS",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@Parity",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@Parity@NO_PARITY",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "NO_PARITY",
+        "location": {
+          "column": "2",
+          "line": "31",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+        },
+        "name": "NO_PARITY",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@Parity@ODD",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ODD",
+        "location": {
+          "column": "13",
+          "line": "31",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+        },
+        "name": "ODD",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@Parity@EVEN",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EVEN",
+        "location": {
+          "column": "18",
+          "line": "31",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+        },
+        "name": "EVEN",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "29",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@StopBits",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@StopBits@ONE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ONE",
+        "location": {
+          "column": "2",
+          "line": "37",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+        },
+        "name": "ONE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@StopBits@TWO",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TWO",
+        "location": {
+          "column": "7",
+          "line": "37",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+        },
+        "name": "TWO",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "35",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@UART_Mode",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@UART_Mode@POLLING",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "POLLING",
+        "location": {
+          "column": "5",
+          "line": "42",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+        },
+        "name": "POLLING",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@UART_Mode@INTERRUPT",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "INTERRUPT",
+        "location": {
+          "column": "14",
+          "line": "42",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+        },
+        "name": "INTERRUPT",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "40",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@SA@UART_Config",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "45",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+    },
+    "members": [
+      {
+        "ID": "c:@SA@UART_Config@FI@DataSize",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "DataSize",
+        "location": {
+          "column": "16",
+          "line": "47",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+        },
+        "name": "DataSize",
+        "origin": "user_include",
+        "scope": "_anonymous_UART_h_45_9"
+      },
+      {
+        "ID": "c:@SA@UART_Config@FI@ParityType",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "ParityType",
+        "location": {
+          "column": "9",
+          "line": "48",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+        },
+        "name": "ParityType",
+        "origin": "user_include",
+        "scope": "_anonymous_UART_h_45_9"
+      },
+      {
+        "ID": "c:@SA@UART_Config@FI@NoStopBits",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "NoStopBits",
+        "location": {
+          "column": "11",
+          "line": "49",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+        },
+        "name": "NoStopBits",
+        "origin": "user_include",
+        "scope": "_anonymous_UART_h_45_9"
+      },
+      {
+        "ID": "c:@SA@UART_Config@FI@BaudRate",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "BaudRate",
+        "location": {
+          "column": "9",
+          "line": "50",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+        },
+        "name": "BaudRate",
+        "origin": "user_include",
+        "scope": "_anonymous_UART_h_45_9"
+      },
+      {
+        "ID": "c:@T@UART_Config",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "struct UART_Config",
+        "location": {
+          "column": "2",
+          "line": "51",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+        },
+        "name": "UART_Config",
+        "origin": "user_include",
+        "scope": "_anonymous_UART_h_45_9"
+      }
+    ],
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@S@UART_ConfigType",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "UART_ConfigType",
+    "location": {
+      "column": "16",
+      "line": "54",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+    },
+    "members": [
+      {
+        "ID": "c:@S@UART_ConfigType@FI@UARTs",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "UARTs",
+        "location": {
+          "column": "21",
+          "line": "56",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+        },
+        "name": "UARTs",
+        "origin": "user_include",
+        "scope": "UART_ConfigType"
+      }
+    ],
+    "name": "UART_ConfigType",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART.h@T@UART_ConfigType",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "struct UART_ConfigType",
+    "location": {
+      "column": "3",
+      "line": "57",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+    },
+    "name": "UART_ConfigType",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@UART_Configuration",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "UART_Configuration",
+    "location": {
+      "column": "30",
+      "line": "59",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+    },
+    "name": "UART_Configuration",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@UART_Configuration",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "UART_Configuration",
+    "location": {
+      "column": "30",
+      "line": "59",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+    },
+    "name": "UART_Configuration",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@flag",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "flag",
+    "location": {
+      "column": "14",
+      "line": "60",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+    },
+    "name": "flag",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@flag",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "flag",
+    "location": {
+      "column": "14",
+      "line": "60",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+    },
+    "name": "flag",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@RecDataBuffer",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "RecDataBuffer",
+    "location": {
+      "column": "14",
+      "line": "61",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+    },
+    "name": "RecDataBuffer",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART_Init(const UART_ConfigType *)",
+    "location": {
+      "column": "6",
+      "line": "64",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+    },
+    "name": "UART_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART_Init(const UART_ConfigType *)",
+    "location": {
+      "column": "6",
+      "line": "66",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+    },
+    "name": "UART_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART_Init(const UART_ConfigType *)",
+    "location": {
+      "column": "6",
+      "line": "66",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+    },
+    "name": "UART_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART0_SendByte",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART0_SendByte(uint8)",
+    "location": {
+      "column": "7",
+      "line": "67",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+    },
+    "name": "UART0_SendByte",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART0_RecieveByte",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8 UART0_RecieveByte(void)",
+    "location": {
+      "column": "8",
+      "line": "68",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+    },
+    "name": "UART0_RecieveByte",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART0_SendString",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART0_SendString(uint8 *)",
+    "location": {
+      "column": "7",
+      "line": "69",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+    },
+    "name": "UART0_SendString",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART0_SendByte",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART0_SendByte(uint8)",
+    "location": {
+      "column": "7",
+      "line": "69",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+    },
+    "name": "UART0_SendByte",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART0_SendByte",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART0_SendByte(uint8)",
+    "location": {
+      "column": "7",
+      "line": "69",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+    },
+    "name": "UART0_SendByte",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART0_RecieveByte",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8 UART0_RecieveByte(void)",
+    "location": {
+      "column": "8",
+      "line": "70",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+    },
+    "name": "UART0_RecieveByte",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART0_RecieveByte",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8 UART0_RecieveByte(void)",
+    "location": {
+      "column": "8",
+      "line": "70",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+    },
+    "name": "UART0_RecieveByte",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART0_SendString",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART0_SendString(uint8 *)",
+    "location": {
+      "column": "7",
+      "line": "71",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+    },
+    "name": "UART0_SendString",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART0_SendString",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UART0_SendString(uint8 *)",
+    "location": {
+      "column": "7",
+      "line": "71",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.h"
+    },
+    "name": "UART0_SendString",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_Cfg.h@403@macro@PORT_CFG_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_CFG_H",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_Cfg.h"
+    },
+    "name": "PORT_CFG_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_Cfg.h@459@macro@PORT_CFG_SW_MAJOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_CFG_SW_MAJOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "18",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_Cfg.h"
+    },
+    "name": "PORT_CFG_SW_MAJOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_Cfg.h@512@macro@PORT_CFG_SW_MINOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_CFG_SW_MINOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "19",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_Cfg.h"
+    },
+    "name": "PORT_CFG_SW_MINOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_Cfg.h@565@macro@PORT_CFG_SW_PATCH_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_CFG_SW_PATCH_VERSION",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_Cfg.h"
+    },
+    "name": "PORT_CFG_SW_PATCH_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_Cfg.h@655@macro@PORT_CFG_AR_RELEASE_MAJOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_CFG_AR_RELEASE_MAJOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "25",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_Cfg.h"
+    },
+    "name": "PORT_CFG_AR_RELEASE_MAJOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_Cfg.h@707@macro@PORT_CFG_AR_RELEASE_MINOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_CFG_AR_RELEASE_MINOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "26",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_Cfg.h"
+    },
+    "name": "PORT_CFG_AR_RELEASE_MINOR_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_Cfg.h@759@macro@PORT_CFG_AR_RELEASE_PATCH_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_CFG_AR_RELEASE_PATCH_VERSION",
+    "location": {
+      "column": "9",
+      "line": "27",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_Cfg.h"
+    },
+    "name": "PORT_CFG_AR_RELEASE_PATCH_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_Cfg.h@868@macro@MCU_TOTAL_PINS_NUM",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MCU_TOTAL_PINS_NUM",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_Cfg.h"
+    },
+    "name": "MCU_TOTAL_PINS_NUM",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_Cfg.h@956@macro@PORT_DEV_ERROR_DETECT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_DEV_ERROR_DETECT",
+    "location": {
+      "column": "9",
+      "line": "33",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_Cfg.h"
+    },
+    "name": "PORT_DEV_ERROR_DETECT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_Cfg.h@1063@macro@PORT_VERSION_INFO_API",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_VERSION_INFO_API",
+    "location": {
+      "column": "9",
+      "line": "36",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_Cfg.h"
+    },
+    "name": "PORT_VERSION_INFO_API",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_Cfg.h@1187@macro@PORT_SET_PIN_DIRECTION_API",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_SET_PIN_DIRECTION_API",
+    "location": {
+      "column": "9",
+      "line": "39",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_Cfg.h"
+    },
+    "name": "PORT_SET_PIN_DIRECTION_API",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_Cfg.h@1244@macro@PIN_DIO_MODE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PIN_DIO_MODE",
+    "location": {
+      "column": "9",
+      "line": "41",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_Cfg.h"
+    },
+    "name": "PIN_DIO_MODE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_Cfg.h@1333@macro@PIN_AIN_MODE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PIN_AIN_MODE",
+    "location": {
+      "column": "9",
+      "line": "42",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_Cfg.h"
+    },
+    "name": "PIN_AIN_MODE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Cfg.h@387@macro@UART_CFG_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART_CFG_H",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Cfg.h"
+    },
+    "name": "UART_CFG_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Cfg.h@447@macro@UART_CONFIGURED_NUMBER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART_CONFIGURED_NUMBER",
+    "location": {
+      "column": "9",
+      "line": "16",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Cfg.h"
+    },
+    "name": "UART_CONFIGURED_NUMBER",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Cfg.h@498@macro@UART0_ENABLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART0_ENABLE",
+    "location": {
+      "column": "9",
+      "line": "18",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Cfg.h"
+    },
+    "name": "UART0_ENABLE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Cfg.h@551@macro@UART1_ENABLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART1_ENABLE",
+    "location": {
+      "column": "9",
+      "line": "19",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Cfg.h"
+    },
+    "name": "UART1_ENABLE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Cfg.h@604@macro@UART2_ENABLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART2_ENABLE",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Cfg.h"
+    },
+    "name": "UART2_ENABLE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Cfg.h@658@macro@UART3_ENABLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART3_ENABLE",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Cfg.h"
+    },
+    "name": "UART3_ENABLE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Cfg.h@712@macro@UART4_ENABLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART4_ENABLE",
+    "location": {
+      "column": "9",
+      "line": "22",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Cfg.h"
+    },
+    "name": "UART4_ENABLE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Cfg.h@766@macro@UART5_ENABLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART5_ENABLE",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Cfg.h"
+    },
+    "name": "UART5_ENABLE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Cfg.h@820@macro@UART6_ENABLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART6_ENABLE",
+    "location": {
+      "column": "9",
+      "line": "24",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Cfg.h"
+    },
+    "name": "UART6_ENABLE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Cfg.h@874@macro@UART7_ENABLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART7_ENABLE",
+    "location": {
+      "column": "9",
+      "line": "25",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Cfg.h"
+    },
+    "name": "UART7_ENABLE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Cfg.h@930@macro@UART0_INT_ENABLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART0_INT_ENABLE",
+    "location": {
+      "column": "9",
+      "line": "27",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Cfg.h"
+    },
+    "name": "UART0_INT_ENABLE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Cfg.h@930@macro@UART0_INTERRUPT_ENABLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART0_INTERRUPT_ENABLE",
+    "location": {
+      "column": "9",
+      "line": "27",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Cfg.h"
+    },
+    "name": "UART0_INTERRUPT_ENABLE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Cfg.h@973@macro@UART0_INT_PERIORETY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART0_INT_PERIORETY",
+    "location": {
+      "column": "9",
+      "line": "28",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Cfg.h"
+    },
+    "name": "UART0_INT_PERIORETY",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.c@F@getPinNumber",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8 getPinNumber(Port_PinType)",
+    "location": {
+      "column": "14",
+      "line": "33",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.c"
+    },
+    "name": "getPinNumber",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.c@F@getPortBaseAddress",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8 getPortBaseAddress(Port_PinType, volatile uint32 **)",
+    "location": {
+      "column": "14",
+      "line": "41",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.c"
+    },
+    "name": "getPortBaseAddress",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.c@Port_Status",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Port_Status",
+    "location": {
+      "column": "25",
+      "line": "51",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.c"
+    },
+    "name": "Port_Status",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Port_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Port_Init(const Port_ConfigType *)",
+    "location": {
+      "column": "6",
+      "line": "68",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.c"
+    },
+    "name": "Port_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.c@2899@F@Port_Init@pin_num",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "pin_num",
+    "location": {
+      "column": "16",
+      "line": "70",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.c"
+    },
+    "name": "pin_num",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.c@2924@F@Port_Init@port_num",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "port_num",
+    "location": {
+      "column": "9",
+      "line": "71",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.c"
+    },
+    "name": "port_num",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.c@2943@F@Port_Init@PortGpio_Ptr",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "PortGpio_Ptr",
+    "location": {
+      "column": "21",
+      "line": "72",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.c"
+    },
+    "name": "PortGpio_Ptr",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.c@3047@F@Port_Init@delay",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "delay",
+    "location": {
+      "column": "19",
+      "line": "73",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.c"
+    },
+    "name": "delay",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Port_SetPinDirection",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Port_SetPinDirection(Port_PinType, Port_PinDirectionType)",
+    "location": {
+      "column": "6",
+      "line": "195",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.c"
+    },
+    "name": "Port_SetPinDirection",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.c@10640@F@Port_SetPinDirection@PortGpio_Ptr",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "PortGpio_Ptr",
+    "location": {
+      "column": "19",
+      "line": "197",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.c"
+    },
+    "name": "PortGpio_Ptr",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Port_RefreshPortDirection",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Port_RefreshPortDirection(void)",
+    "location": {
+      "column": "6",
+      "line": "264",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.c"
+    },
+    "name": "Port_RefreshPortDirection",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.c@13123@F@Port_RefreshPortDirection@Pin",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Pin",
+    "location": {
+      "column": "20",
+      "line": "266",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.c"
+    },
+    "name": "Pin",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.c@13148@F@Port_RefreshPortDirection@PortGpio_Ptr",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "PortGpio_Ptr",
+    "location": {
+      "column": "24",
+      "line": "267",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.c"
+    },
+    "name": "PortGpio_Ptr",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Port_GetVersionInfo",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Port_GetVersionInfo(Std_VersionInfoType *)",
+    "location": {
+      "column": "6",
+      "line": "317",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.c"
+    },
+    "name": "Port_GetVersionInfo",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Port_SetPinMode",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Port_SetPinMode(Port_PinType, Port_PinModeType)",
+    "location": {
+      "column": "6",
+      "line": "371",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.c"
+    },
+    "name": "Port_SetPinMode",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.c@17399@F@Port_SetPinMode@PortGpio_Ptr",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "PortGpio_Ptr",
+    "location": {
+      "column": "19",
+      "line": "373",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.c"
+    },
+    "name": "PortGpio_Ptr",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.c@F@getPinNumber",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint8 getPinNumber(Port_PinType)",
+    "location": {
+      "column": "14",
+      "line": "448",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.c"
+    },
+    "name": "getPinNumber",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.c@F@getPortBaseAddress",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint8 getPortBaseAddress(Port_PinType, volatile uint32 **)",
+    "location": {
+      "column": "14",
+      "line": "461",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.c"
+    },
+    "name": "getPortBaseAddress",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Port.c@22403@F@getPortBaseAddress@port_num",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "port_num",
+    "location": {
+      "column": "10",
+      "line": "463",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port.c"
+    },
+    "name": "port_num",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_regs.h@366@macro@PORT_REGS_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_REGS_H",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_regs.h"
+    },
+    "name": "PORT_REGS_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_regs.h@701@macro@GPIO_PORTA_BASE_ADDRESS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTA_BASE_ADDRESS",
+    "location": {
+      "column": "9",
+      "line": "22",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_regs.h"
+    },
+    "name": "GPIO_PORTA_BASE_ADDRESS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_regs.h@755@macro@GPIO_PORTB_BASE_ADDRESS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTB_BASE_ADDRESS",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_regs.h"
+    },
+    "name": "GPIO_PORTB_BASE_ADDRESS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_regs.h@809@macro@GPIO_PORTC_BASE_ADDRESS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTC_BASE_ADDRESS",
+    "location": {
+      "column": "9",
+      "line": "24",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_regs.h"
+    },
+    "name": "GPIO_PORTC_BASE_ADDRESS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_regs.h@863@macro@GPIO_PORTD_BASE_ADDRESS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTD_BASE_ADDRESS",
+    "location": {
+      "column": "9",
+      "line": "25",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_regs.h"
+    },
+    "name": "GPIO_PORTD_BASE_ADDRESS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_regs.h@917@macro@GPIO_PORTE_BASE_ADDRESS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTE_BASE_ADDRESS",
+    "location": {
+      "column": "9",
+      "line": "26",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_regs.h"
+    },
+    "name": "GPIO_PORTE_BASE_ADDRESS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_regs.h@971@macro@GPIO_PORTF_BASE_ADDRESS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTF_BASE_ADDRESS",
+    "location": {
+      "column": "9",
+      "line": "27",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_regs.h"
+    },
+    "name": "GPIO_PORTF_BASE_ADDRESS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_regs.h@1066@macro@PORT_DATA_REG_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_DATA_REG_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_regs.h"
+    },
+    "name": "PORT_DATA_REG_OFFSET",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_regs.h@1115@macro@PORT_DIR_REG_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_DIR_REG_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "31",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_regs.h"
+    },
+    "name": "PORT_DIR_REG_OFFSET",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_regs.h@1164@macro@PORT_ALT_FUNC_REG_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_ALT_FUNC_REG_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "32",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_regs.h"
+    },
+    "name": "PORT_ALT_FUNC_REG_OFFSET",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_regs.h@1213@macro@PORT_PULL_UP_REG_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_PULL_UP_REG_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "33",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_regs.h"
+    },
+    "name": "PORT_PULL_UP_REG_OFFSET",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_regs.h@1262@macro@PORT_PULL_DOWN_REG_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_PULL_DOWN_REG_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "34",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_regs.h"
+    },
+    "name": "PORT_PULL_DOWN_REG_OFFSET",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_regs.h@1311@macro@PORT_DIGITAL_ENABLE_REG_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_DIGITAL_ENABLE_REG_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "35",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_regs.h"
+    },
+    "name": "PORT_DIGITAL_ENABLE_REG_OFFSET",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_regs.h@1360@macro@PORT_LOCK_REG_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_LOCK_REG_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "36",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_regs.h"
+    },
+    "name": "PORT_LOCK_REG_OFFSET",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_regs.h@1409@macro@PORT_COMMIT_REG_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_COMMIT_REG_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "37",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_regs.h"
+    },
+    "name": "PORT_COMMIT_REG_OFFSET",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_regs.h@1458@macro@PORT_ANALOG_MODE_SEL_REG_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_ANALOG_MODE_SEL_REG_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "38",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_regs.h"
+    },
+    "name": "PORT_ANALOG_MODE_SEL_REG_OFFSET",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_regs.h@1507@macro@PORT_CTL_REG_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_CTL_REG_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "39",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_regs.h"
+    },
+    "name": "PORT_CTL_REG_OFFSET",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_regs.h@1558@macro@SYSCTL_REGCGC2_REG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SYSCTL_REGCGC2_REG",
+    "location": {
+      "column": "9",
+      "line": "41",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_regs.h"
+    },
+    "name": "SYSCTL_REGCGC2_REG",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_PBcfg.c@421@macro@PORT_PBCFG_SW_MAJOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_PBCFG_SW_MAJOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "17",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_PBcfg.c"
+    },
+    "name": "PORT_PBCFG_SW_MAJOR_VERSION",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_PBcfg.c@476@macro@PORT_PBCFG_SW_MINOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_PBCFG_SW_MINOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "18",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_PBcfg.c"
+    },
+    "name": "PORT_PBCFG_SW_MINOR_VERSION",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_PBcfg.c@531@macro@PORT_PBCFG_SW_PATCH_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_PBCFG_SW_PATCH_VERSION",
+    "location": {
+      "column": "9",
+      "line": "19",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_PBcfg.c"
+    },
+    "name": "PORT_PBCFG_SW_PATCH_VERSION",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_PBcfg.c@623@macro@PORT_PBCFG_AR_RELEASE_MAJOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_PBCFG_AR_RELEASE_MAJOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "24",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_PBcfg.c"
+    },
+    "name": "PORT_PBCFG_AR_RELEASE_MAJOR_VERSION",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_PBcfg.c@677@macro@PORT_PBCFG_AR_RELEASE_MINOR_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_PBCFG_AR_RELEASE_MINOR_VERSION",
+    "location": {
+      "column": "9",
+      "line": "25",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_PBcfg.c"
+    },
+    "name": "PORT_PBCFG_AR_RELEASE_MINOR_VERSION",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_PBcfg.c@731@macro@PORT_PBCFG_AR_RELEASE_PATCH_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PORT_PBCFG_AR_RELEASE_PATCH_VERSION",
+    "location": {
+      "column": "9",
+      "line": "26",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_PBcfg.c"
+    },
+    "name": "PORT_PBCFG_AR_RELEASE_PATCH_VERSION",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@MajorPinsConfig",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@MajorPinsConfig@PIN_DEFAULT_CONFIG",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PIN_DEFAULT_CONFIG",
+        "location": {
+          "column": "3",
+          "line": "47",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_PBcfg.c"
+        },
+        "name": "PIN_DEFAULT_CONFIG",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MajorPinsConfig@PIN_OUT_HIGH",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PIN_OUT_HIGH",
+        "location": {
+          "column": "23",
+          "line": "47",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_PBcfg.c"
+        },
+        "name": "PIN_OUT_HIGH",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MajorPinsConfig@PIN_IN_PULLUP_HIGH",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PIN_IN_PULLUP_HIGH",
+        "location": {
+          "column": "37",
+          "line": "47",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_PBcfg.c"
+        },
+        "name": "PIN_IN_PULLUP_HIGH",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MajorPinsConfig@PIN_IN_PULL_DOWN",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PIN_IN_PULL_DOWN",
+        "location": {
+          "column": "57",
+          "line": "47",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_PBcfg.c"
+        },
+        "name": "PIN_IN_PULL_DOWN",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MajorPinsConfig@PIN_OUT_LOW",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PIN_OUT_LOW",
+        "location": {
+          "column": "75",
+          "line": "47",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_PBcfg.c"
+        },
+        "name": "PIN_OUT_LOW",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MajorPinsConfig@PIN_IN_PULLUP_LOW",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PIN_IN_PULLUP_LOW",
+        "location": {
+          "column": "88",
+          "line": "47",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_PBcfg.c"
+        },
+        "name": "PIN_IN_PULLUP_LOW",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MajorPinsConfig@PA0_U1RX",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PA0_U1RX",
+        "location": {
+          "column": "107",
+          "line": "47",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_PBcfg.c"
+        },
+        "name": "PA0_U1RX",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MajorPinsConfig@PA1_U1TX",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "PA1_U1TX",
+        "location": {
+          "column": "117",
+          "line": "47",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_PBcfg.c"
+        },
+        "name": "PA1_U1TX",
+        "origin": "project_file",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "45",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_PBcfg.c"
+    },
+    "name": "",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Port_PBcfg.c@pinsConfigSettings",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "pinsConfigSettings",
+    "location": {
+      "column": "33",
+      "line": "51",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_PBcfg.c"
+    },
+    "name": "pinsConfigSettings",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@Port_Configuration",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Port_Configuration",
+    "location": {
+      "column": "23",
+      "line": "67",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\Port_PBcfg.c"
+    },
+    "name": "Port_Configuration",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UART_Init(const UART_ConfigType *)",
+    "location": {
+      "column": "6",
+      "line": "14",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.c"
+    },
+    "name": "UART_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:UART.c@423@F@UART_Init@UARTRegs_Ptr",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "UARTRegs_Ptr",
+    "location": {
+      "column": "23",
+      "line": "16",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.c"
+    },
+    "name": "UARTRegs_Ptr",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART0_SendByte",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UART0_SendByte(uint8)",
+    "location": {
+      "column": "7",
+      "line": "60",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.c"
+    },
+    "name": "UART0_SendByte",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:UART.c@2576@F@UART0_SendByte@UARTRegs_Ptr",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "UARTRegs_Ptr",
+    "location": {
+      "column": "21",
+      "line": "62",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.c"
+    },
+    "name": "UARTRegs_Ptr",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART0_RecieveByte",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint8 UART0_RecieveByte(void)",
+    "location": {
+      "column": "8",
+      "line": "68",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.c"
+    },
+    "name": "UART0_RecieveByte",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:UART.c@2965@F@UART0_RecieveByte@UARTRegs_Ptr",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "UARTRegs_Ptr",
+    "location": {
+      "column": "21",
+      "line": "70",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.c"
+    },
+    "name": "UARTRegs_Ptr",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:UART.c@3097@F@UART0_RecieveByte@data",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "data",
+    "location": {
+      "column": "9",
+      "line": "71",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.c"
+    },
+    "name": "data",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART0_SendString",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UART0_SendString(uint8 *)",
+    "location": {
+      "column": "7",
+      "line": "79",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.c"
+    },
+    "name": "UART0_SendString",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:UART.c@3412@F@UART0_SendString@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "18",
+      "line": "81",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Regs.h@384@macro@UART_REGS_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART_REGS_H",
+    "location": {
+      "column": "9",
+      "line": "14",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Regs.h"
+    },
+    "name": "UART_REGS_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Regs.h@719@macro@UART0_BASE_ADDRESS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART0_BASE_ADDRESS",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Regs.h"
+    },
+    "name": "UART0_BASE_ADDRESS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Regs.h@768@macro@UART1_BASE_ADDRESS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART1_BASE_ADDRESS",
+    "location": {
+      "column": "9",
+      "line": "24",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Regs.h"
+    },
+    "name": "UART1_BASE_ADDRESS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Regs.h@817@macro@UART2_BASE_ADDRESS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART2_BASE_ADDRESS",
+    "location": {
+      "column": "9",
+      "line": "25",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Regs.h"
+    },
+    "name": "UART2_BASE_ADDRESS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Regs.h@866@macro@UART3_BASE_ADDRESS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART3_BASE_ADDRESS",
+    "location": {
+      "column": "9",
+      "line": "26",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Regs.h"
+    },
+    "name": "UART3_BASE_ADDRESS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Regs.h@915@macro@UART4_BASE_ADDRESS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART4_BASE_ADDRESS",
+    "location": {
+      "column": "9",
+      "line": "27",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Regs.h"
+    },
+    "name": "UART4_BASE_ADDRESS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Regs.h@964@macro@UART5_BASE_ADDRESS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART5_BASE_ADDRESS",
+    "location": {
+      "column": "9",
+      "line": "28",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Regs.h"
+    },
+    "name": "UART5_BASE_ADDRESS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Regs.h@1013@macro@UART6_BASE_ADDRESS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART6_BASE_ADDRESS",
+    "location": {
+      "column": "9",
+      "line": "29",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Regs.h"
+    },
+    "name": "UART6_BASE_ADDRESS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Regs.h@1062@macro@UART7_BASE_ADDRESS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART7_BASE_ADDRESS",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Regs.h"
+    },
+    "name": "UART7_BASE_ADDRESS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Regs.h@1152@macro@UART_DATA_REG_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART_DATA_REG_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "33",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Regs.h"
+    },
+    "name": "UART_DATA_REG_OFFSET",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Regs.h@1201@macro@UART_FLAG_REG_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART_FLAG_REG_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "34",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Regs.h"
+    },
+    "name": "UART_FLAG_REG_OFFSET",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Regs.h@1250@macro@UART_IBRD_REG_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART_IBRD_REG_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "35",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Regs.h"
+    },
+    "name": "UART_IBRD_REG_OFFSET",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Regs.h@1299@macro@UART_FBRD_REG_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART_FBRD_REG_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "36",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Regs.h"
+    },
+    "name": "UART_FBRD_REG_OFFSET",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Regs.h@1348@macro@UART_LCRH_REG_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART_LCRH_REG_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "37",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Regs.h"
+    },
+    "name": "UART_LCRH_REG_OFFSET",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Regs.h@1397@macro@UART_CTL_REG_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART_CTL_REG_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "38",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Regs.h"
+    },
+    "name": "UART_CTL_REG_OFFSET",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Regs.h@1446@macro@UART_IM_REG_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART_IM_REG_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "39",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Regs.h"
+    },
+    "name": "UART_IM_REG_OFFSET",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Regs.h@1495@macro@UART_ICR_REG_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART_ICR_REG_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "40",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Regs.h"
+    },
+    "name": "UART_ICR_REG_OFFSET",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Regs.h@1545@macro@UART_CC_REG_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART_CC_REG_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "41",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Regs.h"
+    },
+    "name": "UART_CC_REG_OFFSET",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Regs.h@1596@macro@SYSCTL_REGCGC2_REG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SYSCTL_REGCGC2_REG",
+    "location": {
+      "column": "9",
+      "line": "43",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Regs.h"
+    },
+    "name": "SYSCTL_REGCGC2_REG",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Regs.h@1662@macro@SYSCTL_RCGCUART_REG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SYSCTL_RCGCUART_REG",
+    "location": {
+      "column": "9",
+      "line": "44",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Regs.h"
+    },
+    "name": "SYSCTL_RCGCUART_REG",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Regs.h@1730@macro@NVIC_PRI1_REG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_PRI1_REG",
+    "location": {
+      "column": "9",
+      "line": "46",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Regs.h"
+    },
+    "name": "NVIC_PRI1_REG",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_Regs.h@1807@macro@NVIC_EN0_REG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NVIC_EN0_REG",
+    "location": {
+      "column": "9",
+      "line": "47",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_Regs.h"
+    },
+    "name": "NVIC_EN0_REG",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@flag",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "flag",
+    "location": {
+      "column": "7",
+      "line": "14",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_IRQ.c"
+    },
+    "name": "flag",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@RecDataBuffer",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "RecDataBuffer",
+    "location": {
+      "column": "7",
+      "line": "15",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_IRQ.c"
+    },
+    "name": "RecDataBuffer",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART0_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UART0_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "17",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_IRQ.c"
+    },
+    "name": "UART0_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_IRQ.c@439@F@UART0_Handler@UARTRegs_Ptr",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "UARTRegs_Ptr",
+    "location": {
+      "column": "21",
+      "line": "19",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_IRQ.c"
+    },
+    "name": "UARTRegs_Ptr",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@MajorUARTConfig",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@MajorUARTConfig@UART_DEFAULT_CONFIG",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "UART_DEFAULT_CONFIG",
+        "location": {
+          "column": "3",
+          "line": "17",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_PBCfg.c"
+        },
+        "name": "UART_DEFAULT_CONFIG",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MajorUARTConfig@EIGHT_9600_INT",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EIGHT_9600_INT",
+        "location": {
+          "column": "24",
+          "line": "17",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_PBCfg.c"
+        },
+        "name": "EIGHT_9600_INT",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MajorUARTConfig@EIGHT_115200_POLLING",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EIGHT_115200_POLLING",
+        "location": {
+          "column": "40",
+          "line": "17",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_PBCfg.c"
+        },
+        "name": "EIGHT_115200_POLLING",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@MajorUARTConfig@EIGHT_115200_INT",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "EIGHT_115200_INT",
+        "location": {
+          "column": "62",
+          "line": "17",
+          "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_PBCfg.c"
+        },
+        "name": "EIGHT_115200_INT",
+        "origin": "project_file",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_PBCfg.c"
+    },
+    "name": "",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:UART_PBCfg.c@UARTsConfigSettings",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "UARTsConfigSettings",
+    "location": {
+      "column": "26",
+      "line": "21",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_PBCfg.c"
+    },
+    "name": "UARTsConfigSettings",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@UART_Configuration",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "UART_Configuration",
+    "location": {
+      "column": "23",
+      "line": "28",
+      "path": "D:\\FEE\\Final_Project\\TivaC_UART_Driver\\UART_PBCfg.c"
+    },
+    "name": "UART_Configuration",
+    "origin": "project_file",
+    "scope": null
+  }
+]

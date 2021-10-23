@@ -1,0 +1,266 @@
+###############################################################################
+#
+# IAR ELF Linker V9.10.2.313/W64 for ARM                  22/Oct/2021  11:19:55
+# Copyright 2007-2021 IAR Systems AB.
+#
+#    Output file  =
+#        D:\FEE\Final_Project\TivaC_UART_Driver\Debug\Exe\TivaC_UART_Driver.out
+#    Map file     =
+#        D:\FEE\Final_Project\TivaC_UART_Driver\Debug\List\TivaC_UART_Driver.map
+#    Command line =
+#        -f
+#        D:\FEE\Final_Project\TivaC_UART_Driver\Debug\Exe\TivaC_UART_Driver.out.rsp
+#        (D:\FEE\Final_Project\TivaC_UART_Driver\Debug\Obj\cstartup_M.o
+#        D:\FEE\Final_Project\TivaC_UART_Driver\Debug\Obj\Det.o
+#        D:\FEE\Final_Project\TivaC_UART_Driver\Debug\Obj\Dio.o
+#        D:\FEE\Final_Project\TivaC_UART_Driver\Debug\Obj\Dio_PBcfg.o
+#        D:\FEE\Final_Project\TivaC_UART_Driver\Debug\Obj\main.o
+#        D:\FEE\Final_Project\TivaC_UART_Driver\Debug\Obj\Port.o
+#        D:\FEE\Final_Project\TivaC_UART_Driver\Debug\Obj\Port_PBcfg.o
+#        D:\FEE\Final_Project\TivaC_UART_Driver\Debug\Obj\UART.o
+#        D:\FEE\Final_Project\TivaC_UART_Driver\Debug\Obj\UART_IRQ.o
+#        D:\FEE\Final_Project\TivaC_UART_Driver\Debug\Obj\UART_PBCfg.o
+#        --no_out_extension -o
+#        D:\FEE\Final_Project\TivaC_UART_Driver\Debug\Exe\TivaC_UART_Driver.out
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map
+#        D:\FEE\Final_Project\TivaC_UART_Driver\Debug\List\TivaC_UART_Driver.map
+#        --config "C:\Program Files\IAR Systems\Embedded Workbench
+#        9.0\arm\config\linker\TexasInstruments\TM4C123GH6.icf" --semihosting
+#        --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x3'ffff] { ro };
+define block CSTACK with size = 4K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'7fff] {
+          rw, block CSTACK, block HEAP };
+
+  Section          Kind         Address    Size  Object
+  -------          ----         -------    ----  ------
+"A0":                                      0xb8
+  .intvec          const            0x0    0xb8  cstartup_M.o [1]
+                                 - 0xb8    0xb8
+
+"P1":                                     0x912
+  .text            ro code         0xb8   0x3f4  Port.o [1]
+  .text            ro code        0x4ac    0x28  Det.o [1]
+  .text            ro code        0x4d4    0xf8  Dio.o [1]
+  .text            ro code        0x5cc    0xea  UART.o [1]
+  .text            ro code        0x6b6     0x2  cstartup_M.o [1]
+  .text            ro code        0x6b8    0xb4  main.o [1]
+  .rodata          const          0x76c    0xac  Port_PBcfg.o [1]
+  .text            ro code        0x818    0x38  zero_init3.o [4]
+  .rodata          const          0x850    0x34  main.o [1]
+  .rodata          const          0x884    0x30  Port_PBcfg.o [1]
+  .text            ro code        0x8b4    0x28  data_init.o [4]
+  .text            ro code        0x8dc    0x24  UART_IRQ.o [1]
+  .text            ro code        0x900    0x22  fpinit_M.o [3]
+  .iar.init_table  const          0x924    0x10  - Linker created -
+  .text            ro code        0x934     0x2  cstartup_M.o [1]
+  .rodata          const          0x938    0x20  UART_PBCfg.o [1]
+  .text            ro code        0x958    0x1e  cmain.o [4]
+  .text            ro code        0x976     0x4  low_level_init.o [2]
+  .text            ro code        0x97a     0x4  exit.o [2]
+  .text            ro code        0x97e     0x2  cstartup_M.o [1]
+  .text            ro code        0x980     0xa  cexit.o [4]
+  .text            ro code        0x98a     0x2  cstartup_M.o [1]
+  .text            ro code        0x98c    0x14  exit.o [5]
+  .text            ro code        0x9a0    0x10  cstartup_M.o [1]
+  .rodata          const          0x9b0     0x8  Dio_PBcfg.o [1]
+  .rodata          const          0x9b8     0x8  UART_PBCfg.o [1]
+  .text            ro code        0x9c0     0x2  cstartup_M.o [1]
+  .text            ro code        0x9c2     0x2  cstartup_M.o [1]
+  .text            ro code        0x9c4     0x2  cstartup_M.o [1]
+  .text            ro code        0x9c6     0x2  cstartup_M.o [1]
+  .text            ro code        0x9c8     0x2  cstartup_M.o [1]
+  .rodata          const          0x9ca     0x0  zero_init3.o [4]
+                                - 0x9ca   0x912
+
+"P2", part 1 of 2:                         0x10
+  .bss             zero     0x2000'0000     0x4  Dio.o [1]
+  .bss             zero     0x2000'0004     0x2  Det.o [1]
+  .bss             zero     0x2000'0006     0x1  Det.o [1]
+  .bss             zero     0x2000'0007     0x1  Det.o [1]
+  .bss             zero     0x2000'0008     0x1  Det.o [1]
+  .bss             zero     0x2000'0009     0x1  Dio.o [1]
+  .bss             zero     0x2000'000a     0x1  Port.o [1]
+  .bss             zero     0x2000'000b     0x1  UART_IRQ.o [1]
+  .bss             zero     0x2000'000c     0x1  UART_IRQ.o [1]
+                          - 0x2000'000d     0xd
+
+"P2", part 2 of 2:                       0x1000
+  CSTACK                    0x2000'0010  0x1000  <Block>
+    CSTACK         uninit   0x2000'0010  0x1000  <Block tail>
+                          - 0x2000'1010  0x1000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+        0x9ca     0x3'ffff  0x3'f636
+  0x2000'1010  0x2000'7fff    0x6ff0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xd:
+          0x2000'0000   0xd
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  ro data  rw data
+    ------            -------  -------  -------
+command line/config:
+    -------------------------------------------
+    Total:
+
+D:\FEE\Final_Project\TivaC_UART_Driver\Debug\Obj: [1]
+    Det.o                  40                 5
+    Dio.o                 248                 5
+    Dio_PBcfg.o                      8
+    Port.o              1'012                 1
+    Port_PBcfg.o                   220
+    UART.o                234
+    UART_IRQ.o             36                 2
+    UART_PBCfg.o                    40
+    cstartup_M.o           34      184
+    main.o                180       52
+    -------------------------------------------
+    Total:              1'784      504       13
+
+dl7M_tln.a: [2]
+    exit.o                  4
+    low_level_init.o        4
+    -------------------------------------------
+    Total:                  8
+
+m7M_tls.a: [3]
+    fpinit_M.o             34
+    -------------------------------------------
+    Total:                 34
+
+rt7M_tl.a: [4]
+    cexit.o                10
+    cmain.o                30
+    data_init.o            40
+    zero_init3.o           56
+    -------------------------------------------
+    Total:                136
+
+shb_l.a: [5]
+    exit.o                 20
+    -------------------------------------------
+    Total:                 20
+
+    Gaps                             4
+    Linker created                  16    4'096
+-----------------------------------------------
+    Grand Total:        1'982      524    4'109
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base         0x924          --   Gb  - Linker created -
+.iar.init_table$$Limit        0x934          --   Gb  - Linker created -
+?main                         0x959         Code  Gb  cmain.o [4]
+BusFault_Handler              0x98b    0x2  Code  Gb  cstartup_M.o [1]
+CSTACK$$Base            0x2000'0010          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'1010          --   Gb  - Linker created -
+DebugMon_Handler              0x9c5    0x2  Code  Gb  cstartup_M.o [1]
+Det_ApiId               0x2000'0007    0x1  Data  Gb  Det.o [1]
+Det_ErrorId             0x2000'0008    0x1  Data  Gb  Det.o [1]
+Det_InstanceId          0x2000'0006    0x1  Data  Gb  Det.o [1]
+Det_ModuleId            0x2000'0004    0x2  Data  Gb  Det.o [1]
+Det_ReportError               0x4ad   0x28  Code  Gb  Det.o [1]
+Dio_Configuration             0x9b0    0x8  Data  Gb  Dio_PBcfg.o [1]
+Dio_Init                      0x4d5   0x20  Code  Gb  Dio.o [1]
+Dio_PortChannels        0x2000'0000    0x4  Data  Lc  Dio.o [1]
+Dio_Status              0x2000'0009    0x1  Data  Lc  Dio.o [1]
+Dio_WriteChannel              0x4f5   0xb6  Code  Gb  Dio.o [1]
+HardFault_Handler             0x935    0x2  Code  Gb  cstartup_M.o [1]
+MemManage_Handler             0x97f    0x2  Code  Gb  cstartup_M.o [1]
+NMI_Handler                   0x6b7    0x2  Code  Gb  cstartup_M.o [1]
+PendSV_Handler                0x9c7    0x2  Code  Gb  cstartup_M.o [1]
+Port_Configuration            0x76c   0xac  Data  Gb  Port_PBcfg.o [1]
+Port_Init                      0xb9  0x354  Code  Gb  Port.o [1]
+Port_Status             0x2000'000a    0x1  Data  Lc  Port.o [1]
+RecDataBuffer           0x2000'000c    0x1  Data  Gb  UART_IRQ.o [1]
+Region$$Table$$Base           0x924          --   Gb  - Linker created -
+Region$$Table$$Limit          0x934          --   Gb  - Linker created -
+SVC_Handler                   0x9c3    0x2  Code  Gb  cstartup_M.o [1]
+SysTick_Handler               0x9c9    0x2  Code  Gb  cstartup_M.o [1]
+UART0_Handler                 0x8dd   0x24  Code  Gb  UART_IRQ.o [1]
+UART0_SendByte                0x671    0xe  Code  Gb  UART.o [1]
+UART0_SendString              0x691   0x26  Code  Gb  UART.o [1]
+UART_Configuration            0x9b8    0x8  Data  Gb  UART_PBCfg.o [1]
+UART_Init                     0x5cd   0xa4  Code  Gb  UART.o [1]
+UARTsConfigSettings           0x938   0x20  Data  Lc  UART_PBCfg.o [1]
+UsageFault_Handler            0x9c1    0x2  Code  Gb  cstartup_M.o [1]
+__cmain                       0x959         Code  Gb  cmain.o [4]
+__exit                        0x98d   0x14  Code  Gb  exit.o [5]
+__iar_data_init3              0x8b5   0x28  Code  Gb  data_init.o [4]
+__iar_init_vfp                0x901         Code  Gb  fpinit_M.o [3]
+__iar_program_start           0x9a1   0x10  Code  Gb  cstartup_M.o [1]
+__iar_zero_init3              0x819   0x38  Code  Gb  zero_init3.o [4]
+__low_level_init              0x977    0x4  Code  Gb  low_level_init.o [2]
+__vector_table                  0x0   0xb8  Data  Gb  cstartup_M.o [1]
+_call_main                    0x965         Code  Gb  cmain.o [4]
+_exit                         0x981         Code  Gb  cexit.o [4]
+exit                          0x97b    0x4  Code  Gb  exit.o [2]
+flag                    0x2000'000b    0x1  Data  Gb  UART_IRQ.o [1]
+getPinNumber                  0x40d   0x28  Code  Lc  Port.o [1]
+getPortBaseAddress            0x435   0x56  Code  Lc  Port.o [1]
+main                          0x6b9   0xb4  Code  Gb  main.o [1]
+pinsConfigSettings            0x884   0x30  Data  Lc  Port_PBcfg.o [1]
+
+
+[1] = D:\FEE\Final_Project\TivaC_UART_Driver\Debug\Obj
+[2] = dl7M_tln.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  1'982 bytes of readonly  code memory
+    524 bytes of readonly  data memory
+  4'109 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

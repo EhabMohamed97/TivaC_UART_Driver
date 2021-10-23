@@ -1,0 +1,143 @@
+##IAR Ninja build file
+
+
+#Rules
+rule COMPILER_XCL
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\XclFileGenerator.exe $xclcommand -f "$rspfile_name"
+  description = IAR_NEW_TOOL+++COMPILER_XCL+++$in+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\XclFileGenerator.exe" $flags
+  rspfile = $rspfile_name
+  rspfile_content = $flags
+
+rule INDEXER
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\SourceIndexer.exe $flags
+  depfile = $out.dep
+  description = IAR_NEW_TOOL+++INDEXER+++$out+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\SourceIndexer.exe" $flags
+
+rule MAKEBROWSE
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\makeBrowseData.exe $flags
+  description = IAR_NEW_TOOL+++MAKEBROWSE+++$out+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\makeBrowseData.exe" $flags
+
+rule PDBLINK
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\PbdLink.exe $flags
+  description = IAR_NEW_TOOL+++PDBLINK+++$out+++"C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\PbdLink.exe" $flags
+
+
+
+#Build steps
+build D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\cstartup_M.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\FEE\Final_Project\TivaC_UART_Driver\cstartup_M.c -xcl_file D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\cstartup_M.xcl -macro_file D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\cstartup_M.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = D$:\FEE\Final_Project\TivaC_UART_Driver\cstartup_M.c -o D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\cstartup_M.tmp
+  rspfile_name = D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\cstartup_M.xcl.rsp
+
+build D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Det.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\FEE\Final_Project\TivaC_UART_Driver\Det.c -xcl_file D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Det.xcl -macro_file D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Det.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = D$:\FEE\Final_Project\TivaC_UART_Driver\Det.c -o D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Det.tmp
+  rspfile_name = D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Det.xcl.rsp
+
+build D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Dio.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\FEE\Final_Project\TivaC_UART_Driver\Dio.c -xcl_file D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Dio.xcl -macro_file D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Dio.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = D$:\FEE\Final_Project\TivaC_UART_Driver\Dio.c -o D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Dio.tmp
+  rspfile_name = D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Dio.xcl.rsp
+
+build D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Dio_PBcfg.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\FEE\Final_Project\TivaC_UART_Driver\Dio_PBcfg.c -xcl_file D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Dio_PBcfg.xcl -macro_file D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Dio_PBcfg.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = D$:\FEE\Final_Project\TivaC_UART_Driver\Dio_PBcfg.c -o D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Dio_PBcfg.tmp
+  rspfile_name = D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Dio_PBcfg.xcl.rsp
+
+build D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\FEE\Final_Project\TivaC_UART_Driver\main.c -xcl_file D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\main.xcl -macro_file D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\main.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = D$:\FEE\Final_Project\TivaC_UART_Driver\main.c -o D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\main.tmp
+  rspfile_name = D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\main.xcl.rsp
+
+build D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Port.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\FEE\Final_Project\TivaC_UART_Driver\Port.c -xcl_file D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Port.xcl -macro_file D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Port.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = D$:\FEE\Final_Project\TivaC_UART_Driver\Port.c -o D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Port.tmp
+  rspfile_name = D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Port.xcl.rsp
+
+build D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Port_PBcfg.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\FEE\Final_Project\TivaC_UART_Driver\Port_PBcfg.c -xcl_file D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Port_PBcfg.xcl -macro_file D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Port_PBcfg.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = D$:\FEE\Final_Project\TivaC_UART_Driver\Port_PBcfg.c -o D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Port_PBcfg.tmp
+  rspfile_name = D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Port_PBcfg.xcl.rsp
+
+build D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\FEE\Final_Project\TivaC_UART_Driver\UART.c -xcl_file D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART.xcl -macro_file D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = D$:\FEE\Final_Project\TivaC_UART_Driver\UART.c -o D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART.tmp
+  rspfile_name = D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART.xcl.rsp
+
+build D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART_IRQ.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\FEE\Final_Project\TivaC_UART_Driver\UART_IRQ.c -xcl_file D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART_IRQ.xcl -macro_file D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART_IRQ.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = D$:\FEE\Final_Project\TivaC_UART_Driver\UART_IRQ.c -o D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART_IRQ.tmp
+  rspfile_name = D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART_IRQ.xcl.rsp
+
+build D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART_PBCfg.xcl : COMPILER_XCL 
+  xclcommand = -source_file D$:\FEE\Final_Project\TivaC_UART_Driver\UART_PBCfg.c -xcl_file D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART_PBCfg.xcl -macro_file D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART_PBCfg.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = D$:\FEE\Final_Project\TivaC_UART_Driver\UART_PBCfg.c -o D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART_PBCfg.tmp
+  rspfile_name = D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART_PBCfg.xcl.rsp
+
+build D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\cstartup_M.pbi : INDEXER D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\cstartup_M.xcl |  $
+D$:\FEE\Final_Project\TivaC_UART_Driver\cstartup_M.c
+  flags = -out=D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\cstartup_M.pbi -f D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\cstartup_M.xcl
+
+build D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Det.pbi : INDEXER D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Det.xcl |  $
+D$:\FEE\Final_Project\TivaC_UART_Driver\Det.c
+  flags = -out=D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Det.pbi -f D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Det.xcl
+
+build D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Dio.pbi : INDEXER D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Dio.xcl |  $
+D$:\FEE\Final_Project\TivaC_UART_Driver\Dio.c
+  flags = -out=D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Dio.pbi -f D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Dio.xcl
+
+build D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Dio_PBcfg.pbi : INDEXER D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Dio_PBcfg.xcl |  $
+D$:\FEE\Final_Project\TivaC_UART_Driver\Dio_PBcfg.c
+  flags = -out=D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Dio_PBcfg.pbi -f D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Dio_PBcfg.xcl
+
+build D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\main.pbi : INDEXER D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\main.xcl |  $
+D$:\FEE\Final_Project\TivaC_UART_Driver\main.c
+  flags = -out=D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\main.pbi -f D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\main.xcl
+
+build D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Port.pbi : INDEXER D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Port.xcl |  $
+D$:\FEE\Final_Project\TivaC_UART_Driver\Port.c
+  flags = -out=D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Port.pbi -f D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Port.xcl
+
+build D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Port_PBcfg.pbi : INDEXER D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Port_PBcfg.xcl |  $
+D$:\FEE\Final_Project\TivaC_UART_Driver\Port_PBcfg.c
+  flags = -out=D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Port_PBcfg.pbi -f D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Port_PBcfg.xcl
+
+build D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART.pbi : INDEXER D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART.xcl |  $
+D$:\FEE\Final_Project\TivaC_UART_Driver\UART.c
+  flags = -out=D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART.pbi -f D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART.xcl
+
+build D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART_IRQ.pbi : INDEXER D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART_IRQ.xcl |  $
+D$:\FEE\Final_Project\TivaC_UART_Driver\UART_IRQ.c
+  flags = -out=D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART_IRQ.pbi -f D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART_IRQ.xcl
+
+build D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART_PBCfg.pbi : INDEXER D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART_PBCfg.xcl |  $
+D$:\FEE\Final_Project\TivaC_UART_Driver\UART_PBCfg.c
+  flags = -out=D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART_PBCfg.pbi -f D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART_PBCfg.xcl
+
+build D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\TivaC_UART_Driver.pbw : MAKEBROWSE D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\TivaC_UART_Driver.pbd
+  flags = D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\TivaC_UART_Driver.pbd -output D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\TivaC_UART_Driver.pbw
+
+build D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\TivaC_UART_Driver_part0.pbi : PDBLINK D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\cstartup_M.pbi |  $
+D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Det.pbi $
+D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Dio.pbi
+  flags = -M D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\TivaC_UART_Driver_part0.pbi D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\cstartup_M.pbi D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Det.pbi D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Dio.pbi
+
+build D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\TivaC_UART_Driver_part1.pbi : PDBLINK D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Dio_PBcfg.pbi |  $
+D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\main.pbi $
+D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Port.pbi
+  flags = -M D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\TivaC_UART_Driver_part1.pbi D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Dio_PBcfg.pbi D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\main.pbi D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Port.pbi
+
+build D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\TivaC_UART_Driver_part2.pbi : PDBLINK D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Port_PBcfg.pbi |  $
+D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART.pbi $
+D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART_IRQ.pbi
+  flags = -M D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\TivaC_UART_Driver_part2.pbi D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\Port_PBcfg.pbi D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART.pbi D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART_IRQ.pbi
+
+build D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\TivaC_UART_Driver_part3.pbi : PDBLINK D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART_PBCfg.pbi
+  flags = -M D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\TivaC_UART_Driver_part3.pbi D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\UART_PBCfg.pbi
+
+build D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\TivaC_UART_Driver.pbd : PDBLINK D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\TivaC_UART_Driver_part0.pbi |  $
+D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\TivaC_UART_Driver_part1.pbi $
+D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\TivaC_UART_Driver_part2.pbi $
+D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\TivaC_UART_Driver_part3.pbi
+  flags = -M D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\TivaC_UART_Driver.pbd D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\TivaC_UART_Driver_part0.pbi D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\TivaC_UART_Driver_part1.pbi D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\TivaC_UART_Driver_part2.pbi D$:\FEE\Final_Project\TivaC_UART_Driver\Debug\BrowseInfo\TivaC_UART_Driver_part3.pbi
+
